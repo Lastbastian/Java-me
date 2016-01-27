@@ -15,6 +15,5 @@ public class DialogBoxes {
 		
 		
 		System.out.print("Hello " + firstName + " " + middleName + " " + lastName );
-		JOptionPane.showMessageDialog(null, "Hello " + firstName + " " + middleName + " " + lastName);
 	}
 }

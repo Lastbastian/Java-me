@@ -14,7 +14,6 @@ public class DialogBoxes {
 		lastName = JOptionPane.showInputDialog("and your last name: ");
 		
 		
-		System.out.print("Hello " + firstName + " " + middleName + " " + lastName );
-		JOptionPane.showMessageDialog(null, "Hello " + firstName + " " + middleName + " " + lastName);
+		System.out.print("Hello " + firstName + middleName + lastName );
 	}
 }
