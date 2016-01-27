@@ -6,7 +6,7 @@
 // Last Modified: 1/25/16
 //**************************************************
 
-import java.util.Scanner;					// Needed for scanner class
+import java.util.Scanner;
 public class Assignment1 {
 	public static void main(String args[])
 	{
