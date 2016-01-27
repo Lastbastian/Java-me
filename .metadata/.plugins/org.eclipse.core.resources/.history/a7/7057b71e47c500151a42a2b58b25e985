@@ -7,8 +7,5 @@ public class DialogBoxes {
 	{
 		
 		JOptionPane.showMessageDialog(null, "Hello World!");
-		String name;
-		name = JOptionPane.showInputDialog("Enter your name.");
-		System.out.print("Hello " + name);
 	}
 }
