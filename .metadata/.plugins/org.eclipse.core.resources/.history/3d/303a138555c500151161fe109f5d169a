@@ -1,0 +1,19 @@
+//**************************************************
+// BlackJack.java
+// inputs       : 
+// outputs      : 
+// Written by   : Chris Bastian
+// Last Modified: 1/27/16
+//**************************************************
+
+public class BlackJack {
+	public static void main(String args[])
+	{
+		int dealerTotal = 0;
+		int playerTotal = 0;
+		
+		
+		
+		
+	}
+}

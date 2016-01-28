@@ -1,8 +1,7 @@
 import java.util.Scanner;
-
 import javax.swing.JOptionPane;
 
-public class DialogBoxes {
+public class DialogBoxes { 
 	public static void main(String args[])
 	{
 		String firstName;

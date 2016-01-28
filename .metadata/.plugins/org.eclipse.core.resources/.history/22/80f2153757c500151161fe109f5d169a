@@ -1,0 +1,26 @@
+//**************************************************
+// BlackJack.java
+// inputs       : 
+// outputs      : 
+// Written by   : Chris Bastian
+// Last Modified: 1/27/16
+//**************************************************
+
+public class BlackJack {
+	public static void main(String args[])
+	{
+		int dealerTotal = 0;
+		int playerTotal = 0;
+		boolean play = true;
+		
+		while(play)
+		{
+			System.out.println("Welcome to Black Jack.");
+			
+			cardOne = random.nextInt(10 - 1 + 1) + min;
+			cardTwo = random.nextInt(10 - 1 + 1) + min;
+			System.out.println("You have been delt a ")
+		}
+		
+	}
+}
