@@ -21,7 +21,6 @@ public class BlackJack {
 			int playerTotal = 0;
 			char hitMe = 'n';
 			boolean bust = false;
-			boolean blackJack = false;
 			
 			Random rand = new Random();
 			int card1 = rand.nextInt(10) + 1;
@@ -42,14 +41,12 @@ public class BlackJack {
 				
 				System.out.println("You drew a " + anotherCard + ".");
 				sumTotal += anotherCard;
+				if sumTotal > 21 bust = true;
+				
 				System.out.println("Your total is now: " + sumTotal + ".");
-				if (sumTotal > 21)
-					System.out.println("Bummer!  You are over 21.");
-				else if (sumTotal == 21)
-					System.out.println("Sweetness You got 21.");
-				else
-					System.out.println("Would you like another card? ");
-					hitMe = input.next().charAt(0);
+				
+				System.out.println("Would you like another card? ");
+				hitMe = input.next().charAt(0);
 				
 			}
 				

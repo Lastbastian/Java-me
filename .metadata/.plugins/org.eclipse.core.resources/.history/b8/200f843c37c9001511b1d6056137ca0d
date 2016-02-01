@@ -44,12 +44,22 @@ public class BlackJack {
 				sumTotal += anotherCard;
 				System.out.println("Your total is now: " + sumTotal + ".");
 				if (sumTotal > 21)
-					System.out.println("Bummer!  You are over 21.");
-				else if (sumTotal == 21)
-					System.out.println("Sweetness You got 21.");
-				else
-					System.out.println("Would you like another card? ");
-					hitMe = input.next().charAt(0);
+				{
+					System.out.println("Bummer! You busted!");
+					hitMe = 'n';
+				}
+				if (sumTotal == 21)
+				{
+					System.out.println("You have 21.  Nice job!");
+					hitMe = 'n';
+				}
+					
+				
+				
+				
+				
+				System.out.println("Would you like another card? ");
+				hitMe = input.next().charAt(0);
 				
 			}
 				
