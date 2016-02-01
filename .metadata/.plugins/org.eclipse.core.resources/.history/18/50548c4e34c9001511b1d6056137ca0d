@@ -19,7 +19,7 @@ public class BlackJack {
 		{
 			int dealerTotal = 0;
 			int playerTotal = 0;
-			char hitMe = 'n';
+			char hitMe = 'n'
 			
 			Random rand = new Random();
 			int card1 = rand.nextInt(10) + 1;
