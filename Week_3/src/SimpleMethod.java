@@ -16,9 +16,8 @@ public class SimpleMethod {
 	/**
 	The displayMessage method displays a greeting
 	 */
-	public static void displayMessage()
-	{
-		System.out.println("Hello from the display message method!");
-	}
-	
+	public static void displayMessage()									// Method Header
+	{																	// Start of method body
+		System.out.println("Hello from the display message method!");	// Method body continued.
+	}																	// End of method body.
 }
