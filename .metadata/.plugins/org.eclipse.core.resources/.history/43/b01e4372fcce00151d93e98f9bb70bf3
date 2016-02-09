@@ -20,21 +20,27 @@ public class NumberGuessingGame {
 		
 		int lowEnd = 1;
 		int highEnd = 100;
-		int nextGuess;
+		int nextGuess = (highEnd + (lowEnd - 1)) / 2;
 		
 		do {
-			char guessResponse;
-			nextGuess = (highEnd + (lowEnd - 1)) / 2;
-			
 			Scanner input1 = new Scanner(System.in);
+			char guessResponse;
+			
 			System.out.println("Is it " + nextGuess + "?  (h/l/c)");
 			guessResponse = input1.next().charAt(0);
 			
 			if (guessResponse == 'h')
+			{
 				lowEnd = nextGuess;
-
+				nextGuess = (highEnd + lowEnd) / 2;
+				System.out.println("My highend is " + highEnd + "\n" + "My lowend is " + lowEnd);
+			}
 			else if (guessResponse == 'l')
+			{
 				highEnd = nextGuess;
+				nextGuess = (highEnd + lowEnd) / 2;
+				System.out.println("My highend is " + highEnd + "\n" + "My lowend is " + lowEnd);
+			}
 			else
 				correct = true;
 		} while (!correct);

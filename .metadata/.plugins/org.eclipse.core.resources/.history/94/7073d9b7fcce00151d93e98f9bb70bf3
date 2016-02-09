@@ -23,18 +23,23 @@ public class NumberGuessingGame {
 		int nextGuess;
 		
 		do {
-			char guessResponse;
-			nextGuess = (highEnd + (lowEnd - 1)) / 2;
-			
 			Scanner input1 = new Scanner(System.in);
+			char guessResponse;
+			
+			nextGuess = (highEnd + (lowEnd - 1)) / 2;
 			System.out.println("Is it " + nextGuess + "?  (h/l/c)");
 			guessResponse = input1.next().charAt(0);
 			
 			if (guessResponse == 'h')
+			{
 				lowEnd = nextGuess;
-
+				System.out.println("My highend is " + highEnd + "\n" + "My lowend is " + lowEnd);
+			}
 			else if (guessResponse == 'l')
+			{
 				highEnd = nextGuess;
+				System.out.println("My highend is " + highEnd + "\n" + "My lowend is " + lowEnd);
+			}
 			else
 				correct = true;
 		} while (!correct);
