@@ -1,0 +1,16 @@
+public class NumberGuessingGame {
+	public static void main(String[] args)
+	{
+		do {
+		playOneGame();
+		} while (shouldPlayAgain());
+	}
+	
+	public static void playOneGame()
+	{
+		
+		
+		
+	}
+}
+
