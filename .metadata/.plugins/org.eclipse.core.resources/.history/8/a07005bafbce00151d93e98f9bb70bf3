@@ -20,12 +20,12 @@ public class NumberGuessingGame {
 		
 		int lowEnd = 1;
 		int highEnd = 100;
-		int nextGuess = (highEnd - (lowEnd - 1)) / 2;
 		
 		do {
 			Scanner input1 = new Scanner(System.in);
 			char guessResponse;
 			
+			int nextGuess = (highEnd - (lowEnd - 1)) / 2;
 			System.out.println("Is it " + nextGuess + "?  (h/l/c)");
 			guessResponse = input1.next().charAt(0);
 			
