@@ -60,7 +60,7 @@ public class NumberGuessingGame {
 		char response;
 		boolean result;
 		
-		System.out.println("Great! Would you like to play again? (y/n)");
+		System.out.println("Would you like to play again? (y/n)");
 		response = input.next().charAt(0);
 		
 		if (response == 'y')
@@ -70,5 +70,6 @@ public class NumberGuessingGame {
 		
 		return result;
 	}
+	
 }
 

@@ -22,35 +22,37 @@ public class NumberGuessingGame {
 		int highEnd = 100;
 		int nextGuess;
 		
-		while (!correct) {
-			nextGuess = getMidpoint(lowEnd, highEnd);
-			char response = getUserResponseToGuess(nextGuess);
+		do {
+			nextGuess = getMidPoint(lowEnd, highEnd);
+			getUserResponseToGuess(int nextGuess);
 			
-			if (response == 'h')
-				lowEnd = nextGuess;
-			else if (response == 'l')
-				highEnd = nextGuess;
-			else
-				correct = true;
-		}
-	}
-	
-	public static int getMidpoint(int myLowEnd, int myHighEnd)
-	{
-		int midpoint = (myLowEnd + myHighEnd) / 2;
+			
+
+//			if (getUserResponseToGuess() == 'h')
+//				lowEnd = nextGuess;
+//
+//			else if (getUserResponseToGuess() == 'l')
+//				highEnd = nextGuess;
+//			else
+//				correct = true;
+		} while (!correct);
 		
-		return midpoint;		
 	}
 	
-	public static char getUserResponseToGuess(int guess)
+	public static char getUserResponseToGuess(int myGuess)
 	{
-		Scanner input = new Scanner(System.in);
 		char guessResponse;
-		
 		System.out.println("Is it " + guess + "?  (h/l/c)");
-		guessResponse = input.next().charAt(0);
+		guessResponse = input1.next().charAt(0);
 		
 		return guessResponse;
+	}
+	
+	public static int getMidpoint(int value1, int value2)
+	{
+		int midpoint = (value1 + value2) / 2;
+		
+		return midpoint;		
 	}
 	
 	public static boolean shouldPlayAgain()
@@ -60,7 +62,7 @@ public class NumberGuessingGame {
 		char response;
 		boolean result;
 		
-		System.out.println("Great! Would you like to play again? (y/n)");
+		System.out.println("Would you like to play again? (y/n)");
 		response = input.next().charAt(0);
 		
 		if (response == 'y')
@@ -70,5 +72,6 @@ public class NumberGuessingGame {
 		
 		return result;
 	}
+	
 }
 

@@ -70,5 +70,6 @@ public class NumberGuessingGame {
 		
 		return result;
 	}
+	
 }
 

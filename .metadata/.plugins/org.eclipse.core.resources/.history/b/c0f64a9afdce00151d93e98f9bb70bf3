@@ -22,33 +22,27 @@ public class NumberGuessingGame {
 		int highEnd = 100;
 		int nextGuess;
 		
-		while (!correct) {
-			nextGuess = getMidpoint(lowEnd, highEnd);
-			char response = getUserResponseToGuess(nextGuess);
+		do {
+			getUserResponseToGuess(int guess);
 			
-			if (response == 'h')
+			nextGuess = (highEnd + (lowEnd - 1)) / 2;
+
+			if (guessResponse == 'h')
 				lowEnd = nextGuess;
-			else if (response == 'l')
+
+			else if (guessResponse == 'l')
 				highEnd = nextGuess;
 			else
 				correct = true;
-		}
-	}
-	
-	public static int getMidpoint(int myLowEnd, int myHighEnd)
-	{
-		int midpoint = (myLowEnd + myHighEnd) / 2;
+		} while (!correct);
 		
-		return midpoint;		
 	}
 	
 	public static char getUserResponseToGuess(int guess)
 	{
-		Scanner input = new Scanner(System.in);
 		char guessResponse;
-		
 		System.out.println("Is it " + guess + "?  (h/l/c)");
-		guessResponse = input.next().charAt(0);
+		guessResponse = input1.next().charAt(0);
 		
 		return guessResponse;
 	}
@@ -60,7 +54,7 @@ public class NumberGuessingGame {
 		char response;
 		boolean result;
 		
-		System.out.println("Great! Would you like to play again? (y/n)");
+		System.out.println("Would you like to play again? (y/n)");
 		response = input.next().charAt(0);
 		
 		if (response == 'y')
@@ -70,5 +64,6 @@ public class NumberGuessingGame {
 		
 		return result;
 	}
+	
 }
 
