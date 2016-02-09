@@ -1,0 +1,17 @@
+public class ValueReturn
+{
+	public static void main(String[] args)
+	{
+		int total, value1 = 20, value2 = 40;
+		
+		total = sum(value1, value2);
+	}
+	
+	public static int sum(int myValue1, int myValue2)
+	{
+		sum = myValue1 + myValue2;
+		return sum;
+		
+	}
+
+}
