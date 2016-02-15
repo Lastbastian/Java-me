@@ -1,0 +1,23 @@
+public class simpleArray 
+{
+	public static void main(String[] args)
+	{
+		int[] anArray;
+		
+		anArray = new int[10];
+		
+		anArray[0] = 100;
+		anArray[1] = 200;
+		anArray[0] = 300;
+		anArray[1] = 400;
+		anArray[0] = 500;
+		anArray[1] = 600;
+		anArray[0] = 700;
+		anArray[1] = 800;
+		anArray[0] = 900;
+		anArray[1] = 1000;
+		
+		System.out.println("The element at " + anArray[0]);
+		
+	}
+}

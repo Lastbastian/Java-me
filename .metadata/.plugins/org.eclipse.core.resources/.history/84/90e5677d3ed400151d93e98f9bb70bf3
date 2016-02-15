@@ -1,0 +1,10 @@
+public class simpleArray 
+{
+	public static void main(String[] args)
+	{
+		int[] anArray;
+		
+		anArray[0] = 100;
+		
+	}
+}
