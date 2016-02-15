@@ -37,8 +37,9 @@ public class NumberGuessingGame {
 	
 	public static int getMidpoint(int myLowEnd, int myHighEnd)
 	{
-		int midpoint;
-		return midpoint = (myLowEnd + myHighEnd) / 2;		
+		int midpoint = (myLowEnd + myHighEnd) / 2;
+		
+		return midpoint;		
 	}
 	
 	public static char getUserResponseToGuess(int guess)

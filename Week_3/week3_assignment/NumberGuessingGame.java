@@ -37,8 +37,9 @@ public class NumberGuessingGame {
 	
 	public static int getMidpoint(int myLowEnd, int myHighEnd)
 	{
-		int midpoint;
-		return midpoint = (myLowEnd + myHighEnd) / 2;		
+		int midpoint = (myLowEnd + myHighEnd) / 2;
+		
+		return midpoint;		
 	}
 	
 	public static char getUserResponseToGuess(int guess)
@@ -47,9 +48,9 @@ public class NumberGuessingGame {
 		char guessResponse;
 		
 		System.out.println("Is it " + guess + "?  (h/l/c)");
-		return guessResponse = input.next().charAt(0);
+		guessResponse = input.next().charAt(0);
 		
-//		return guessResponse;
+		return guessResponse;
 	}
 	
 	public static boolean shouldPlayAgain()
@@ -63,9 +64,11 @@ public class NumberGuessingGame {
 		response = input.next().charAt(0);
 		
 		if (response == 'y')
-			return result = true;
+			result = true;
 		else
-			return result = false;
+			result = false;
+		
+		return result;
 	}
 }
 
