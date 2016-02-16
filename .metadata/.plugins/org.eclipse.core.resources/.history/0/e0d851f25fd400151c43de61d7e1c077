@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class ArrayDemo2 {
+	public static void main(String[] args)
+	{
+		final int EMPLOYEES = 3;
+		int[] hours = new int[EMPLOYEES];
+		
+		
+		
+	}
+	
+}

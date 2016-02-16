@@ -1,0 +1,14 @@
+public class PayArray
+{
+	public static void main(String[] args)
+	{
+		final int EMPLOYEES = 5;
+		double payRate;
+		double grosspay;
+		
+		
+		
+		
+	}
+
+}
