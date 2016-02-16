@@ -1,0 +1,17 @@
+// demonstrates passing an array as an argument to a method
+
+public class PassArray
+{
+	public static void main(String[] args)
+	{
+		
+		final int ARRAY_SIZE = 4;
+		
+		int[] numbers = new int[ARRAY_SIZE];
+		
+		
+		
+		
+	}
+
+}
