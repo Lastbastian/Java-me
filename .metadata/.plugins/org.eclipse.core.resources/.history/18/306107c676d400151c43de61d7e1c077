@@ -9,4 +9,5 @@ public class EnhancedForLoop
 		for(int value : numbers)
 			System.out.println(value);
 	}
+
 }
