@@ -16,35 +16,15 @@ public class PokerHands
 			System.out.print("Card " + (index + 1) + ": ");
 			hand[index] = keyboard.nextInt();
 		}
-		
-		containsPair(hand);
-		containsTwoPair(hand);
-		containsThreeOfaKind(hand);
-		containsStraight(hand);
-		containsFullHouse(hand);
-		containsFourOfaKind(hand);
-		
-		
 	}
 	
 	public static boolean  containsPair(int hand[])
 	{
-		for(int index = 0; index < hand.length - 1; index++)
-		{
-			if(hand[index] == hand[index + 1]
-					return true;
-					
-		}
-	}
-	
-	public static boolean  containsTwoPair(int hand[])
-	{
+		
 		
 	}
-	public static boolean  containsThreeOfaKind(int hand[])
-	{
-		
-	}
+	public static boolean  containsTwoPair(int hand[]){}
+	public static boolean  containsThreeOfaKind(int hand[]){}
 	public static boolean  containsStraight(int hand[])
 	{
 		

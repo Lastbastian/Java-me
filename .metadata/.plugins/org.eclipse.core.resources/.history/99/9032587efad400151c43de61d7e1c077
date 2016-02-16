@@ -29,11 +29,9 @@ public class PokerHands
 	
 	public static boolean  containsPair(int hand[])
 	{
-		for(int index = 0; index < hand.length - 1; index++)
+		for(int index = 0; index < hand.length; index++)
 		{
-			if(hand[index] == hand[index + 1]
-					return true;
-					
+			
 		}
 	}
 	
