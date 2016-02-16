@@ -28,5 +28,7 @@ public class PayArray
 		{
 			System.out.println("Employee #" + (index + 1) + " hours at " + payRate + " = $" + hours[index] * payRate);
 		}
+		
 	}
+
 }
