@@ -1,0 +1,24 @@
+import java.util.Scanner
+
+
+public class PokerHands
+{
+	final int HAND_SIZE = 5;
+	int[] hand = new int[HAND_SIZE];
+						
+	System.out.print("Enter five numeric cards, no face cards. Use 2 - 9.")
+	
+	for(int index = 0; index < HAND_SIZE; index++)
+	{
+		System.out.print("Card " + index + ": ");
+		
+	}
+	
+}
+
+public static boolean  containsPair(int hand[])
+public static boolean  containsTwoPair(int hand[])
+public static boolean  containsThreeOfaKind(int hand[])
+public static boolean  containsStraight(int hand[])
+public static boolean  containsFullHouse(int hand[])
+public static boolean  containsFourOfaKind(int hand[])

@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class PokerHands
+{
+	public static void main(String[] args)
+	final int HAND_SIZE = 5;
+	int[] hand = new int[HAND_SIZE];
+						
+	
+	
+	Scanner keyboard = new Scanner(System.in);
+	
+	for(int index = 0; index < HAND_SIZE; index++)
+	{
+		System.out.print("Card " + index + ": ");
+		hand[index] = keyboard.nextInt();
+	}
+	
+}

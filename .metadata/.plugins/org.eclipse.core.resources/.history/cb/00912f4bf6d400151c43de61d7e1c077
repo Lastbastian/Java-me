@@ -9,7 +9,7 @@ public class ReturnArray
 		values = getArray();
 		
 		for(double num : values)
-			System.out.println(num + " ");
+			System.out.print(num + " ");
 		
 		
 		
