@@ -11,9 +11,9 @@ public class ArrayListDemo1 {
 		
 		System.out.println("The array has " + nameList.size() + " objects stored in it.");
 		
-		for (String name : nameList)
+		for (value : ArrayList)
 		{
-			System.out.println(name);			
+			System.out.println(value);			
 		}
 	}
 }
