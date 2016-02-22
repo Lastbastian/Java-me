@@ -2,7 +2,7 @@ public class SearchArray
 {
 	public static void main(String[] args)
 	{
-		int[] tests = {87, 75, 98, 100, 82, 81, 100};
+		int[] tests = {87, 75, 98, 100, 82};
 		int results;
 		
 		results = sequentialSearch(tests, 100);
@@ -20,17 +20,12 @@ public class SearchArray
 	{
 		int index = 0;
 		int element = -1;
-		boolean found = false;
+		boolean found;
+	
+
 		
-		while (!found && index < array.length)
-		{
-			if (array[index] == value)
-			{
-				found = true;
-				element = index;
-			}
-		index++;
-		}
-	return element;		
+		
 	}
+	
+
 }
