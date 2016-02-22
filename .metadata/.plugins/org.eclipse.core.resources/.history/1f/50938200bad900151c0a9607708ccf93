@@ -31,7 +31,6 @@ public class ObjectArray
 			System.out.print("Enter the balcnce for account " + (index + 1) + ": ");
 			balance = keyboard.nextDouble();
 			
-			// creates the new bank account object
 			array[index] = new BankAccount(balance);
 		}		
 	}

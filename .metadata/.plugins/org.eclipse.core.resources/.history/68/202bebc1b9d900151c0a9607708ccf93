@@ -26,13 +26,10 @@ public class ObjectArray
 		
 		Scanner keyboard = new Scanner(System.in);
 		
-		for (int index = 0; index < array.size; index++)
+		for (int index = 0; index < arrray.size; index++)
 		{
-			System.out.print("Enter the balcnce for account " + (index + 1) + ": ");
-			balance = keyboard.nextDouble();
 			
-			// creates the new bank account object
-			array[index] = new BankAccount(balance);
-		}		
+			
+		}	
 	}
 }
