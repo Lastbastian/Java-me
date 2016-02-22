@@ -1,0 +1,12 @@
+public class SalesData {
+	public static void main(String[] args)
+	{
+		private double[] SalesData;
+		
+		
+		
+		
+	}
+	
+	
+}
