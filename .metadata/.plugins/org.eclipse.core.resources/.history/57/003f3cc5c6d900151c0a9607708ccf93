@@ -41,7 +41,7 @@ public class ArrayListDemo1 {
 		// replacing an item
 		nameList.set(1,"Judy Boo Boody");
 		
-		System.out.println("The name at index 1 was replaced with a new name.  Here are the names now: ");
+		System.out.println("The name at index 1 was replaced with a new name.  Here are the names now:")
 		for (int index = 0; index < nameList.size(); index++)
 		{
 			System.out.println("Index: " + (index) + "   Name: " + nameList.get(index) + ".");			

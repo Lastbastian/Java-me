@@ -20,7 +20,7 @@ public class ArrayListDemo1 {
 		// removing a nameList object at an index
 		nameList.remove(1);
 		
-		System.out.println("The item at index 1 has been removed.  Here are the names now: ");
+		System.out.println("The item at index 1 has been removed.  Here are the items now: ");
 		
 		System.out.println("The array has " + nameList.size() + " objects stored in it.");
 		
@@ -32,16 +32,7 @@ public class ArrayListDemo1 {
 		// inserting an item
 		nameList.add(1, "Maryanne"); // the add method can take a position, thus it becomes insert
 		
-		System.out.println("A new name at index 1 has been inserted.  Here are the names now: ");
-		for (int index = 0; index < nameList.size(); index++)
-		{
-			System.out.println("Index: " + (index) + "   Name: " + nameList.get(index) + ".");			
-		}
-		
-		// replacing an item
-		nameList.set(1,"Judy Boo Boody");
-		
-		System.out.println("The name at index 1 was replaced with a new name.  Here are the names now: ");
+		System.out.println("A new name at index 1 has been inserted.  Here are the items now: ");
 		for (int index = 0; index < nameList.size(); index++)
 		{
 			System.out.println("Index: " + (index) + "   Name: " + nameList.get(index) + ".");			
