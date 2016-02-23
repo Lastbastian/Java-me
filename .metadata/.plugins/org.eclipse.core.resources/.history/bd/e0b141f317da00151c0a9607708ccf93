@@ -92,7 +92,7 @@ public class Assignment5
 		System.out.println("Top Scorers");
 		for (int index = 0; index < 5; index++)
 		{
-			System.out.format(names.get(index) + ":  " + scores.get(index));
+			System.out.println(names.get(index) + ":  " + scores.get(index));
 		}
 	}
 }

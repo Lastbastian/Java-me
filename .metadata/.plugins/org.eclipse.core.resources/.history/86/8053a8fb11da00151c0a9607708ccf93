@@ -9,10 +9,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- This program takes 5 names and scores, stores them in separate ArrayLists then sorts and displays them.
- */
-
 public class Assignment5
 {
 	public static void main(String[] args)
@@ -24,15 +20,6 @@ public class Assignment5
 		sort(names, scores);
 		display(names, scores);
 	}
-	
-	
-	
-	/** 
-	 * This method accepts to ArrayLists and takes  user input in the form of scores(ints) and names(strings) 
-	 * and adds them to the ArrayLists.
-	 * @param names - String ArrayList of names
-	 * @param scores - Integer Arraylist of scores
-	 */
 	
 	public static void initialize(ArrayList<String> names, ArrayList<Integer> scores)
 	{
@@ -48,14 +35,6 @@ public class Assignment5
 			scores.add(intInput.nextInt());
 		}	
 	}
-	
-	
-	
-	/**
-	 * Method sorts scores (and names) in descending order of score.
-	 * @param names - String ArrayList of names
-	 * @param scores - Integer ArrayList of scores
-	 */
 	
 	public static void sort(ArrayList<String> names, ArrayList<Integer> scores)
 	{
@@ -80,19 +59,12 @@ public class Assignment5
 		}         
 	}
 	
-	
-	
-	/**
-	 * Method displays ArrayList in easy to read format.
-	 * @param names - String ArrayList of names
-	 * @param scores - Integer ArrrayList of scores
-	 */
 	public static void display(ArrayList<String> names, ArrayList<Integer> scores)
 	{
 		System.out.println("Top Scorers");
 		for (int index = 0; index < 5; index++)
 		{
-			System.out.format(names.get(index) + ":  " + scores.get(index));
+			System.out.println(names.get(index) + "     " + scores.get(index));
 		}
 	}
 }

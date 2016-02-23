@@ -96,3 +96,35 @@ public class Assignment5
 		}
 	}
 }
+
+
+/** SAMPLE OUTPUT
+ * 
+ * Enter the name for score #1:
+Suzy
+Enter the score for score #1: 
+600
+Enter the name for score #2:
+Kim
+Enter the score for score #2: 
+9900
+Enter the name for score #3:
+Bob
+Enter the score for score #3: 
+1012
+Enter the name for score #4:
+Armando
+Enter the score for score #4: 
+8000
+Enter the name for score #5:
+Tim
+Enter the score for score #5: 
+514
+Top Scorers
+Kim:   9900
+Armando:   8000
+Bob:   1012
+Suzy:   600
+Tim:   514
+ */
+*/

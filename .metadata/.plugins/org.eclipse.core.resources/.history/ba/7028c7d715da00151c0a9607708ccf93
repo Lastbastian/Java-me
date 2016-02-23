@@ -25,15 +25,11 @@ public class Assignment5
 		display(names, scores);
 	}
 	
-	
-	
-	/** 
-	 * This method accepts to ArrayLists and takes  user input in the form of scores(ints) and names(strings) 
-	 * and adds them to the ArrayLists.
-	 * @param names - String ArrayList of names
-	 * @param scores - Integer Arraylist of scores
-	 */
-	
+	/** This method accepts to ArrayLists and takes  user input in the form of scores(ints) and names(strings)
+	 and adds them to the ArrayLists.
+	 * @param names String ArrayList of names
+	 * @param scores Integer Arraylist of scores
+	*/
 	public static void initialize(ArrayList<String> names, ArrayList<Integer> scores)
 	{
 		Scanner strInput = new Scanner(System.in);
@@ -49,12 +45,10 @@ public class Assignment5
 		}	
 	}
 	
-	
-	
 	/**
-	 * Method sorts scores (and names) in descending order of score.
-	 * @param names - String ArrayList of names
-	 * @param scores - Integer ArrayList of scores
+	 * 
+	 * @param names ArrayList of names
+	 * @param scores ArrayList of scores
 	 */
 	
 	public static void sort(ArrayList<String> names, ArrayList<Integer> scores)
@@ -80,19 +74,12 @@ public class Assignment5
 		}         
 	}
 	
-	
-	
-	/**
-	 * Method displays ArrayList in easy to read format.
-	 * @param names - String ArrayList of names
-	 * @param scores - Integer ArrrayList of scores
-	 */
 	public static void display(ArrayList<String> names, ArrayList<Integer> scores)
 	{
 		System.out.println("Top Scorers");
 		for (int index = 0; index < 5; index++)
 		{
-			System.out.format(names.get(index) + ":  " + scores.get(index));
+			System.out.println(names.get(index) + "     " + scores.get(index));
 		}
 	}
 }

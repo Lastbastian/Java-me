@@ -80,19 +80,12 @@ public class Assignment5
 		}         
 	}
 	
-	
-	
-	/**
-	 * Method displays ArrayList in easy to read format.
-	 * @param names - String ArrayList of names
-	 * @param scores - Integer ArrrayList of scores
-	 */
 	public static void display(ArrayList<String> names, ArrayList<Integer> scores)
 	{
 		System.out.println("Top Scorers");
 		for (int index = 0; index < 5; index++)
 		{
-			System.out.format(names.get(index) + ":  " + scores.get(index));
+			System.out.println(names.get(index) + "     " + scores.get(index));
 		}
 	}
 }
