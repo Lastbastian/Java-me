@@ -12,20 +12,19 @@ public class ArrayListDemo1 {
 		
 		System.out.println("The array has " + nameList.size() + " objects stored in it.");
 		
-		for (int index = 0; index < nameList.size(); index++)
+		for (String name : nameList)
 		{
-			System.out.println("Index: " + (index) + "   Name: " + nameList.get(index) + ".");			
+			System.out.println(name);			
 		}
 		// removing a nameList object at an index
 		nameList.remove(1);
 		
 		System.out.println("The item at index 1 has been removed.  Here are the items now: ");
+System.out.println("The array has " + nameList.size() + " objects stored in it.");
 		
-		System.out.println("The array has " + nameList.size() + " objects stored in it.");
-		
-		for (int index = 0; index < nameList.size(); index++)
+		for (String name : nameList)
 		{
-			System.out.println("Index: " + (index) + "   Name: " + nameList.get(index) + ".");			
+			System.out.println(name);			
 		}
 	}
 }
