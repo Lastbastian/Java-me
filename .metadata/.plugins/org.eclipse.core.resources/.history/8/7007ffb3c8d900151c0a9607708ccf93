@@ -18,15 +18,12 @@ public class SelectionSort2
 	
 	public static void selectionSort(ArrayList<String> nameList)
 	{
-		int startScan;
-		int index = 0;
-		int minIndex = 0;
-		char minValue;
+		int startScan, index = 0, minIndex = 0, minValue = 0;
 		
-		for (startScan = 0; startScan < (nameList.size() - 1); startScan++)
+		for (startScan = 0; startScan < (array.length-1); startScan++)
 		{
 			minIndex = startScan;
-			minValue = nameList.get(startScan)[0];
+			minValue = array[startScan];
 			for(index = (startScan + 1); index < array.length; index++)
 			{
 				if (array[index] < minValue)

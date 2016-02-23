@@ -26,7 +26,7 @@ public class SelectionSort2
 		for (startScan = 0; startScan < (nameList.size() - 1); startScan++)
 		{
 			minIndex = startScan;
-			minValue = nameList.get(startScan)[0];
+			minValue = nameList.get(startScan);
 			for(index = (startScan + 1); index < array.length; index++)
 			{
 				if (array[index] < minValue)

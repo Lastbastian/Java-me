@@ -3,8 +3,7 @@ import java.util.ArrayList;
 public class ArrayListDemo1 {
 	public static void main(String[] args)
 	{
-		ArrayList<String> nameList = new ArrayList<String>(); // 1st the a ArrayList reference variable nameList is 
-		// created then a new ArrayList object is created (new ArrayList<string>)
+		ArrayList<String> nameList = new ArrayList<String>();
 		
 		// adding to the nameList ArrayList
 		nameList.add("James");
