@@ -1,0 +1,30 @@
+public class Rectangle
+{
+	private double length;
+	private double width;
+	
+	public void setLength(double myLength)
+	{
+		length = myLength;
+	}
+	
+	public void setWidth(double myWidth)
+	{
+		width = myWidth;
+	}
+	
+	public double getLength()
+	{
+		return length;
+	}
+	
+	public double getWidth()
+	{
+		return width;
+	}
+	
+	public double getArea(length, width)
+	{
+		return length * width;
+	}
+}
