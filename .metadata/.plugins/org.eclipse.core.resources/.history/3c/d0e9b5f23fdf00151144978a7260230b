@@ -1,0 +1,16 @@
+import javax.swing.JOptionPane;
+
+public class RoomAreas
+{
+
+	double number;
+	double totalArea;
+	String input;
+	
+	Rectangle kitchen = new Rectangle();
+	Rectangle bedroom = new Rectangle();
+	Rectangle den = new Rectangle();
+	
+	
+
+}
