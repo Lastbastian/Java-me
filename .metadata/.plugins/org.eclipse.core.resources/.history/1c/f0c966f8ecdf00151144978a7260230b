@@ -51,3 +51,10 @@ public class MyCircleTester {
 		}
 	}
 }
+
+//MyCircleTester
+//The MyCircleTester.java code can be inside a static main method.  Use this as a place to test your class. I encourage you to spend a significant amount of time testing out the MyCircle class. This is a great way to learn the nuances of java syntax. Feel free to write and erase as much code as you want. (Naturally.)
+//After you have tested the code to your own satisfaction, submit code that meets these minimum criteria
+//Allocate and initialize at least three MyCircle objects. Two of them should overlap, and two should not.
+//Display the areas of the three circles
+//Invoke doesOverlap on MyCircles to show which circles overlap.

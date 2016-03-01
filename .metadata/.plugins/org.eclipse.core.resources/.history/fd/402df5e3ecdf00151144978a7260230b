@@ -81,9 +81,9 @@ public class MyCircle
 		double distance;
 		boolean result = false;
 		
-		distance = Math.sqrt(Math.pow((otherCircle.x - this.x),2) + Math.pow((otherCircle.y - this.y), 2));
+		distance = Math.sqrt(Math.pow((otherCircle.x - x),2) + Math.pow((otherCircle.y - y), 2));
 		
-		if (distance < (otherCircle.radius + this.radius))
+		if (distance < (this.radius + otherCircle.radius))
 			result =  true;
 		
 		return result;		
