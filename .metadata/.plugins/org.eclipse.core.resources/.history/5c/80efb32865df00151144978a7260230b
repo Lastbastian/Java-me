@@ -1,0 +1,18 @@
+public class MyCircle
+{
+	double x;
+	double y;
+	double radius;
+	
+	public void setX(double myX)
+	{
+		x = myX;		
+	}
+	
+	public void setY(double myY)
+	{
+		y = myY;		
+	}
+
+
+}

@@ -1,0 +1,49 @@
+public class MyCircle
+{
+	double x;
+	double y;
+	double radius;
+	
+	public void setX(double value)
+	{
+		x = value;		
+	}
+	
+	
+
+	double getArea()
+	boolean doesOverlap(MyCircle otherCircle)
+	
+	
+	
+	public double getX()
+	{
+		return x;		
+	}
+	
+	public void setY(double value)
+	{
+		y = value;		
+	}
+	
+	public double getY()
+	{
+		return y;		
+	}
+	
+	public void setRadius(double value)
+	{
+		radius = value;
+	}
+
+	public double getRadius()
+	{
+		return radius;
+	}
+	
+	public getArea()
+	{
+		return 3.1415 * radius^2
+	}
+
+}
