@@ -4,16 +4,6 @@ public class Rectangle
 	private double width;
 	
 	
-	// Constructor
-	// @param l The length of the rectangle
-	// @param w The width of the rectangle
-	public Rectangle(double l, double w)
-	{
-		length = l;
-		width = w;
-	}
-	
-	
 	// The setLength method stores a value in the length field. 
 	public void setLength(double l)
 	{
