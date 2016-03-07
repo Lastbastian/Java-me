@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class CellPhoneTest
+{
+	public static void main(String[] args)
+	{
+		String testMan;
+		String testMod;
+		double testPrice;
+		
+		Scanner keyboard = new Scanner(System.in); 
+		
+		System.out.println("Enter the manufacturer: ");
+		testMan = keyboard.nextLine();
+		
+		
+		
+	}	
+	
+
+}

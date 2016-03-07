@@ -36,10 +36,5 @@ public class CellPhone
 	{
 		retailPrice = price;
 	}
-	
-	public double getRetailPrice()
-	{
-		return retailPrice;
-		
 	}
 }

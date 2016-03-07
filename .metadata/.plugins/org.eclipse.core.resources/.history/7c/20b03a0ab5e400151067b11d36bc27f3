@@ -1,0 +1,12 @@
+public class CellPhoneTest
+{
+	public static void main(String[] args)
+	{
+		String testMan;
+		String testMod;
+		
+		
+	}	
+	
+
+}

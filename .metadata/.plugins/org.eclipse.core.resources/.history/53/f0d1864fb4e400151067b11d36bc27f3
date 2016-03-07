@@ -31,15 +31,4 @@ public class CellPhone
 	{
 		return model;
 	}
-	
-	public void setRetailPrice(double price)
-	{
-		retailPrice = price;
-	}
-	
-	public double getRetailPrice()
-	{
-		return retailPrice;
-		
-	}
 }

@@ -1,0 +1,6 @@
+public class CellPhoneTest
+{
+	String testMan;
+	String testMod;
+
+}
