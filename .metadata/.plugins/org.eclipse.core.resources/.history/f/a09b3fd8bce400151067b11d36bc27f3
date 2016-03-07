@@ -1,0 +1,22 @@
+public class Dealer
+{
+	private int die1Value;
+	private int die2Value;
+	
+	// Constructor
+	public Dealer()
+	{
+		die1Value = 0;
+		die2Value = 0;		
+	}
+	
+	public void rollDice()
+	{
+		final int SIDES = 6;
+		
+		Die die1 = new Die(SIDES);
+		
+		
+	}
+
+}

@@ -21,7 +21,6 @@ public class DieArgument {
 		d.roll();
 		
 		System.out.println("You rolled a " + d.getValue());
-		
 	}
 	
 }

@@ -1,0 +1,66 @@
+public class Dealer
+{
+	private int die1Value;
+	private int die2Value;
+	
+	// Constructor
+	public Dealer()
+	{
+		die1Value = 0;
+		die2Value = 0;		
+	}
+	
+	public void rollDice()
+	{
+		final int SIDES = 6;
+		
+		Die die1 = new Die(SIDES);
+		Die die2 = new Die(SIDES);
+		
+		die1Value = die1.getValue();
+		die2Value = die2.getValue();
+	}
+	
+	
+	/**
+	 * The getChoOrHan method returns the result of the dice roll, Cho or Han.
+	 * @return Either "Cho (even)" or Han (odd)"
+	 */
+	
+	public String getChoOrHan()
+	{
+		 String result;		// To hold the result
+		 
+		 // Get the sum of the dice
+		 int sum = die1Value + die2Value;
+		 
+		 // Determine if odd or even
+		 if (sum % 2 == 0)
+			 result = "Cho (even)";
+		 else
+			 result = "Han (even)";
+		 
+		 return result;		
+	}
+	
+	/**
+	 * The getDie1Value method return the value of die #1
+	 * @return The dieValue field
+	 */
+	
+	public int getDie1Value()
+	{
+		return die1Value;
+	}
+	
+	/**
+	 * The getDie2Value method return the value of die #2
+	 * @return The dieValue field
+	 */
+	
+	public int getDie2Value()
+	{
+		return die2Value;
+	}
+
+}

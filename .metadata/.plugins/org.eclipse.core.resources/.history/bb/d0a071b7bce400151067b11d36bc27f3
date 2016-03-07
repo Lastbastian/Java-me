@@ -1,0 +1,12 @@
+public class Dealer
+{
+	private int die1Value;
+	private int die2Value;
+	
+	public dealer()
+	{
+		die1Value = 0;
+		die2Value = 0;		
+	}
+
+}
