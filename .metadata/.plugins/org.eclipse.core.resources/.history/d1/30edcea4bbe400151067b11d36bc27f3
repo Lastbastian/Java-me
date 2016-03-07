@@ -1,0 +1,19 @@
+
+public class DieArgument {
+
+	public static void main(String[] args)
+	{
+		final int SIX_SIDES = 6;
+		final int TWENTY_SIDES = 20;
+		
+		Die sixDie = new Die(SIX_SIDES);
+		Die twentyDie = new Die(TWENTY_SIDES);
+		
+		
+		
+		
+		
+		
+	}
+	
+}

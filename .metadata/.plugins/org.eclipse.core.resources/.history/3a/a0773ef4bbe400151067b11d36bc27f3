@@ -16,11 +16,7 @@ public class DieArgument {
 
 	public static void rollDie(Die d)
 	{
-		System.out.println("Rolling a " + d.getSides() + " sided die.");
-		
-		d.roll();
-		
-		System.out.println("You rolled a " + d.getValue());
+		System.out.println("Rolling a " + d.getSides());
 		
 	}
 	
