@@ -1,0 +1,10 @@
+public class DiceDemo
+{
+	final int DIE1_SIDES = 6;
+	final int DIE2_SIDES = 12;
+	final int MAX_ROLLS;
+
+}
+
+
+
