@@ -1,0 +1,11 @@
+public class CellPhone
+{
+	private String manufact;
+	private String model;
+	private double retailPrice;
+	
+	
+
+
+
+}
