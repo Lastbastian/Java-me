@@ -12,23 +12,16 @@ public class CellPhone
 		
 	}
 
-	public void setManufact(String man)
+
+	public String setManufact(String man)
 	{
 		manufact = man;
 	}
 	
-	public String getManufact()
+	public void getManufact()
 	{
 		return manufact;
 	}
 	
-	public void setModel(String mod)
-	{
-		model = mod;
-	}
 	
-	public String getModel()
-	{
-		return model;
-	}
 }

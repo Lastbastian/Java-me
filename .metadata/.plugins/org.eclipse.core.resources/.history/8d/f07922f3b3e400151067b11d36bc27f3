@@ -12,6 +12,7 @@ public class CellPhone
 		
 	}
 
+
 	public void setManufact(String man)
 	{
 		manufact = man;
@@ -22,13 +23,5 @@ public class CellPhone
 		return manufact;
 	}
 	
-	public void setModel(String mod)
-	{
-		model = mod;
-	}
 	
-	public String getModel()
-	{
-		return model;
-	}
 }
