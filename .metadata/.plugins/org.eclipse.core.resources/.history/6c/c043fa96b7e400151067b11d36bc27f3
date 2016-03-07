@@ -1,0 +1,23 @@
+import java.util.Random;
+
+public class Die {
+	private int sides;
+	private int value;
+	
+	public Die(int numSides)
+	{
+		sides = numSides;
+		roll();
+	}
+	
+	
+	
+	public int roll()
+	{
+		Random rand = new Random();
+		
+		value = rand.nextInt(sides + 1);
+	}
+	
+
+}
