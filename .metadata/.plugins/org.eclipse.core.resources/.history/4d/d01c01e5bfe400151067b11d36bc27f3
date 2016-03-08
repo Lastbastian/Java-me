@@ -1,0 +1,35 @@
+import java.util.Random;
+
+public class Player {
+	private String name;
+	private String guess;
+	private int points;
+	
+	/** Constructor
+	 * @param playerName The player's name.
+	 */
+	public Player(String playerName)
+	{
+		name = playerName;
+		guess = "";
+		points = 0;
+	}
+	
+	/** The makeGuess method causes the player to guess either "Cho (even) or "Han (odd)".
+	 */
+	public void makeGuess()
+	{
+		// Create a random object
+		
+		Random rand = new Random();
+		
+		int guessNumber = rand.nextInt(2);
+		
+		if (guessNumber == 0)
+			guess = "Cho (even)";
+		else
+			guess = "Han (odd)"
+	}
+	
+
+}

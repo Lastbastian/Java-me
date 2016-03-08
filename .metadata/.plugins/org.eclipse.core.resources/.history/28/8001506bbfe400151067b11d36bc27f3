@@ -1,0 +1,26 @@
+import java.util.Random;
+
+public class Player {
+	private String name;
+	private String guess;
+	private int points;
+	
+	/**
+	 * Constructor
+	 * @param playerName The player's name.
+	 */
+	
+	public Player(String playerName)
+	{
+		name = playerName;
+		guess = "";
+		points = 0;
+	}
+	
+	/**
+	 * 
+	 */
+	
+	public void makeGuess()
+
+}
