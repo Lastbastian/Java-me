@@ -1,0 +1,24 @@
+public class BankAccount
+{
+	private double balance;
+	
+	// No Args constructor
+	public BankAccount()
+	{
+		balance = 0.0;
+	}
+
+	// Constructor using a double argument
+	public BankAccount(double startBalance)
+	{
+		balance = startBalance;
+	}
+	
+	// Constructor using a string argument
+	public BankAccount(String str)
+	{
+		balance = Double.parseDouble(str);
+	}
+	
+	
+}

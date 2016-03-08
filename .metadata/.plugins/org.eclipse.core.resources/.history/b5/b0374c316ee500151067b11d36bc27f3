@@ -1,0 +1,17 @@
+public class BankAccount
+{
+	private double balance;
+	
+	// No Args constructor
+	public BankAccount()
+	{
+		balance = 0.0;
+	}
+
+	public BankAccount(double startBalance)
+	{
+		balance = startBalance;
+	}
+	
+	
+}
