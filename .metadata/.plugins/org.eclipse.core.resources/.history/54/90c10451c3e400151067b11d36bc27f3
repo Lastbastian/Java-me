@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class ChoHan {
+
+	public static void main(String[] args)
+	{
+		final int MAX_ROUNDS = 5;
+		
+		String player1Name;
+		String player2Name;
+		
+		
+		
+		
+	}
+}
