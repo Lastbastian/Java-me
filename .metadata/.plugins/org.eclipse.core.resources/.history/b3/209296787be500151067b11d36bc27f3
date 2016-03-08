@@ -1,0 +1,37 @@
+public class NumberGuesser
+{
+	private int lower;
+	private int upper;
+	
+	// No args constructor
+	public NumberGuesser()
+	{
+		lower = 0;
+		upper = 100;
+	}
+	
+	// Constructor with arguments
+	public NumberGuesser(int lowerBound, int upperBound)
+	{
+		lower = lowerBound;
+		upper = upperBound;
+	}
+	
+	void higher()
+	{
+		
+	}
+	
+	void lower()
+	{
+		
+	}
+	
+	int getCurrentGuess()
+	{
+		
+	}
+	
+	void reset();
+
+}

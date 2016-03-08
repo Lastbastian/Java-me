@@ -1,0 +1,8 @@
+public class NumberGuesser
+{
+	
+public NumberGuesse(int lowerBound, int upperBound)
+{
+}
+
+}

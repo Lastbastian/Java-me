@@ -1,0 +1,16 @@
+public class NumberGuesser
+{
+	
+	public NumberGuesser()
+	{
+		int lowerBound = 0;
+		int upperBound = 100;
+	}
+	
+	public NumberGuesser(int lowerBound, int upperBound)
+	{
+		lower = lowerBound;
+		upper = upperBound;
+	}
+
+}

@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class GuessingProgram {
+	public static void main(String[] args)
+	{
+		int number = 0;
+			
+		System.out.println("Think of a number between 1 and 100");
+		
+		Scanner input = new Scanner(System.in); 
+		number = input.nextInt();
+		
+		NumberGuesser();
+		
+		System.out.println("");
+	
+		
+				
+	}
+}

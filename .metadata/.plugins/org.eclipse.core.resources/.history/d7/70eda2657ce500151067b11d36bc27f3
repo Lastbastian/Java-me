@@ -1,0 +1,43 @@
+public class NumberGuesser
+{
+	private int lower;
+	private int upper;
+	
+	// No args constructor
+	public NumberGuesser()
+	{
+		lower = 0;
+		upper = 100;
+	}
+	
+	// Constructor with arguments
+	public NumberGuesser(int lowerBound, int upperBound)
+	{
+		int midpoint = (lowerBound + upperBound) / 2;
+	}
+	
+	void higher()
+	{
+		
+	}
+	
+	void lower()
+	{
+		
+	}
+	
+	public int getCurrentGuess(NumberGuesser ng)
+	{
+		return (ng.lower + ng.upper) / 2
+	}
+	
+	public static void rollDie(Die d)
+	
+	void reset()
+	{
+		
+	}
+	
+	
+
+}
