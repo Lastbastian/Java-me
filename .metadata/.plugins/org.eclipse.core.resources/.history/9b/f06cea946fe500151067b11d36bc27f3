@@ -49,9 +49,4 @@ public class BankAccount
 	{
 		balance = Double.parseDouble(str);
 	}
-	
-	public double getBalance()
-	{
-		return balance;
-	}
 }

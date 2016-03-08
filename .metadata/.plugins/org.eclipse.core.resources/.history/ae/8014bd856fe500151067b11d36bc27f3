@@ -45,13 +45,4 @@ public class BankAccount
 		balance = b;
 	}
 	
-	public void setBalance(String str)
-	{
-		balance = Double.parseDouble(str);
-	}
-	
-	public double getBalance()
-	{
-		return balance;
-	}
 }
