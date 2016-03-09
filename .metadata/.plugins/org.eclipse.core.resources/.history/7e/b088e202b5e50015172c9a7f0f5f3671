@@ -1,0 +1,56 @@
+public class NumberGuesser
+{
+	private int lower;
+	private int upper;
+	private int midpoint;
+	
+	// No args constructor
+	public NumberGuesser()
+	{
+		lower = 1;
+		upper = 100;
+	}
+	
+	// Constructor with arguments
+	public NumberGuesser(int lowerBound, int upperBound)
+	{
+		lower = lowerBound;
+		upper = upperBound;
+	}
+	
+	void higher()
+	{
+		// reset lower and higher stays the same
+		lower = midpoint;
+	}
+		
+	void lower()
+	{
+		// reset upper to midpoint and lower stays the same
+		upper = midpoint;
+	}
+	
+//	int getLower()
+//	{
+//		return lower;
+//	}
+//	
+//	void setLower(int num)
+//	{
+//		lower = num;
+//	}
+	
+	public int getCurrentGuess(NumberGuesser guess)
+	{
+		return midpoint = (guess.lower + guess.upper) / 2;
+	}
+	
+	
+	void reset()
+	{
+
+	}
+	
+	
+
+}
