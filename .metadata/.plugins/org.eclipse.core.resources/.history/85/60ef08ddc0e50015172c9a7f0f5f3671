@@ -52,9 +52,6 @@ public class NumberGuesser
 	}
 	
 	
-	/**
-	 * The reset method stores values in the lower and upper fields
-	 */
 	void reset()
 	{
 		lower = 1;

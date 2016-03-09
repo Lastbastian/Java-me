@@ -41,20 +41,12 @@ public class NumberGuesser
 		upper = midpoint;
 	}
 	
-	/**
-	 * The getCurrentGuess method takes a NumberGuesser object and returns an int
-	 * @param NumberGuesser object
-	 * @return an int quotient of lower times upper divided by 2
-	 */
 	public int getCurrentGuess(NumberGuesser guess)
 	{
 		return midpoint = (guess.lower + guess.upper) / 2;
 	}
 	
 	
-	/**
-	 * The reset method stores values in the lower and upper fields
-	 */
 	void reset()
 	{
 		lower = 1;

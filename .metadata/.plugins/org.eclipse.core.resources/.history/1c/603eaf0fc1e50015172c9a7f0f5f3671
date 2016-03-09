@@ -33,6 +33,5 @@ public class GuessingProgram {
 			Scanner keyboard = new Scanner(System.in);
 			gameOn = keyboard.next().charAt(0);
 		}
-		System.out.println("Thanks for playing. Goodbye.");
 	}
 }
