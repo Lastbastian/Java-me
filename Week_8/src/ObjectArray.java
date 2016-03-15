@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+class ObjectArray
+{
+	public static void main(String[] args)
+	{
+		final int NUM_ACCOUNTS = 3;
+		
+		// Create an array that can reference bank account objects
+		BankAccount[] accounts = new BankAccount[NUM_ACCOUNTS];
+		
+		// Create objects for the array
+		createAccounts(accounts);
+		
+		System.out.println("Here are the balances for each account");
+		
+		for (int index = 0; index < accounts.length; index++)
+		{
+			System.out.println("Account " + (index + 1) + ": $" + accounts[index].getBalance());
+		}
+	}	
+	
+	public static void createAccounts(BankAccount[] array)
+	{
+		double balance;
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		for (int index = 0; index <  array.length; index++)
+		{
+			System.out.println("Enter the balance for account " + (index + 1) + ": ");
+			balance = keyboard.nextDouble();
+			
+			array[index] = new BankAccount(balance);
+		}
+	}
+
+
+}
