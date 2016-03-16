@@ -37,7 +37,7 @@ public class Instructor {
 	
 	public String toString()
 	{
-		String str = "Last Name " + lastName + "\nFirst Name " + firstName + "\nOffice Number: " + officeNumber;
+		String str = "Last Name: " + lastName + " \n First Name: " + firstName + "\nOffice Number: " + officeNumber;
 		
 		return str;
 	}

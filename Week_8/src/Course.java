@@ -52,7 +52,7 @@ public class Course {
 	
 	public String toString()
 	{
-		String str = "Course name: " + courseName + "\nInstructor: " + instructor + "\nTextbook Information:\n" + textBook;
+		String str = "Course name: " + courseName + "\nInstructor:\n " + instructor + "\nTextbook Information:\n" + textBook;
 	
 		return str;
 	}
