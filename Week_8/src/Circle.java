@@ -14,12 +14,17 @@ public class Circle {
 	
 	Circle(double xValue, double yValue, double r)
 	{
-		
+		x = xValue;
+		y = yValue;
+		radius = r;
 	}
 	
 	
 	Circle()
 	{
+		The no-argument constructor. This constructor should create a new Point object with an x and y coordinate of 0, and use this point object to initialize the origin member. It should set the radius to 1.
+		Point newPoint = new Point(x, y);
+		
 		radius = 0;
 	}
 	Circle(Circle c)
@@ -34,7 +39,8 @@ public class Circle {
 	}
 	void setOrigin(Point p)
 	{
-		
+		x = p.
+		y = p.y;
 	}
 	void setX(double value)
 	{
@@ -68,7 +74,9 @@ public class Circle {
 	
 	double getArea()
 	{
+		double area = Math.PI * Math.pow(radius, 2);
 		
+		return area;
 	}
 	
 	String toString()
