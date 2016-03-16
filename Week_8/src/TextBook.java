@@ -27,5 +27,12 @@ public class TextBook {
 		publisher = pub;
 	}
 	
+	public String toString()
+	{
+		String str = "Title: " + title + "\nAuthor: " + author + "\nPublisher: " + publisher;
+		
+		return str;
+	}
+	
 	
 }
