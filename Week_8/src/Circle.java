@@ -22,7 +22,7 @@ public class Circle {
 	
 	Circle()
 	{
-		The no-argument constructor. This constructor should create a new Point object with an x and y coordinate of 0, and use this point object to initialize the origin member. It should set the radius to 1.
+//		create a new Point object with an x and y coordinate of 0, and use this point object to initialize the origin member. It should set the radius to 1.
 		Point newPoint = new Point(x, y);
 		
 		radius = 0;
