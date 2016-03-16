@@ -25,4 +25,11 @@ public class Stock {
 	
 		return str;
 	}
+	
+	public Stock copy()
+	{
+		Stock copyObject = new Stock(symbol, sharePrice);
+		
+		return copyObject;
+	}
 }
