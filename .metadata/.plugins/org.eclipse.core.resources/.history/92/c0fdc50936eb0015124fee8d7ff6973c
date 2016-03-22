@@ -1,0 +1,21 @@
+
+public class Circle {
+
+	double radius;
+	
+	Circle(Point o, double r)
+	{
+		
+		
+	}
+	
+	Circle(double xValue, double yValue, double r)
+	{
+		
+	}
+	
+	
+	Circle()
+	{}
+	Circle(Circle c)
+}

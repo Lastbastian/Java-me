@@ -1,0 +1,18 @@
+import javax.swing.JOptionPane;
+
+public class ReturnObject
+{
+	
+	public static void main(String[] args)
+	{
+		BankAccount account;
+		
+		account = getAccount();
+		
+		JOptionPane.showMessageDialog(null, "The account has a balance of $" + account.getBalance());
+		System.exit(0);
+		
+	}
+
+
+}

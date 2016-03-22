@@ -1,0 +1,12 @@
+
+public class TextBook {
+
+	private String title;
+	private String author;
+	private String publisher;
+	
+	public TextBook(String textTitle; String auth, String pub)
+	{
+		
+	}
+}

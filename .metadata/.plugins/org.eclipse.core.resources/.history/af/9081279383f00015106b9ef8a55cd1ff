@@ -1,0 +1,41 @@
+
+public class BARTTrain {
+	
+	private String nextStation;
+	private double milesPerHour;
+	private double milesToNextStation;
+	private boolean inbound;
+	
+	public BARTTrain() 
+	{
+		
+	}
+	
+	public BARTTrain(String station, double mph, double miles, boolean isInbound) 
+	{
+		nextStation = station;
+		milesPerHour = mph;
+		milesToNextStation = miles;
+		inbound = isInbound;
+	}
+	
+	public void setNextStation(String s)
+	{
+		nextStation = s;
+	}
+	
+	public String getNextStation() 
+	{
+		return nextStation;
+	}
+//	The getMinutesToNextStation method should calculate the time to the next station based on the distance and speed. 
+	public double getMinutesToNextStation() 
+	{
+		return this.dis
+	}
+	public void switchInbound() 
+	
+	
+	
+
+}

@@ -1,0 +1,5 @@
+public class Test
+{
+	String str = "Hello World";
+	System.out.println(str);
+}

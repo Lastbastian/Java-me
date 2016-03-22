@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+
+	
+public class sampleTest {
+	public static void main(String[] args)
+	{
+		ArrayList<Integer> a = new ArrayList<Integer>();
+		a.add(22);
+		a.add(1);
+		
+		int[] intArray = new int[5];
+		intArray[4] = 100;
+		
+		for(int index = 0; index < a.size(); index++)
+		{
+			System.out.println(a.get(index));
+		}
+		
+		for(int index = 0; index < 5; index++)
+		{
+			System.out.println(intArray[index](index));
+		}
+	}
+
+}

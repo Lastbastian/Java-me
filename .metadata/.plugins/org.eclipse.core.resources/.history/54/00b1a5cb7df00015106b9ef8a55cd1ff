@@ -1,0 +1,15 @@
+
+public class sampleTests {
+	public static void main(String[] args)
+	{
+	
+	}
+	
+	public static int[] intArrayWithStringLengths(String[] s)
+	{
+		int number = 0;
+		return number;
+		
+	}
+
+}

@@ -1,0 +1,37 @@
+
+public class Circle {
+
+	double radius;
+	
+	Circle(Point o, double r)
+	{
+		
+		
+	}
+	
+	Circle(double xValue, double yValue, double r)
+	{
+		
+	}
+	
+	
+	Circle()
+	{}
+	Circle(Circle c)
+	{
+		
+	}
+	
+	Point getOrigin()
+void setOrigin(Point p)
+void setX(double value)
+double getX()
+void setY(double value)
+double getY()
+void setRadius(double value)
+double getRadius()
+double getArea()
+String toString()
+boolean equals(Circle c)
+boolean doesOverlap(Circle c)
+}

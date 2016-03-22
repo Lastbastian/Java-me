@@ -1,0 +1,10 @@
+
+public class CourseDemo {
+
+	
+	public static void main()
+	{
+		Instructor myInstructor = newInstructor("Kramer", "Shawn", "RH3010");
+		
+	}
+}

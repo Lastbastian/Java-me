@@ -1,0 +1,19 @@
+
+public class sampleTests {
+	public static void main(String[] args)
+	{
+		String[] stringArray = new String[5];
+		stringArray[0] = "1";
+		stringArray[1] = "6";
+		stringArray[2] = "7";
+	
+	}
+	
+	public static int[] intArrayWithStringLengths(String[] s)
+	{
+		int number = 0;
+		return number;
+		
+	}
+
+}

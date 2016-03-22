@@ -1,0 +1,14 @@
+
+public class CourseDemo {
+
+	
+	public static void main()
+	{
+		// Creating an Instructor object
+		Instructor myInstructor = new Instructor("Kramer", "Shawn", "RH3010");
+		
+		// Creating a TextBook object
+		TextBook myTextBook = new TextBook("Starting Out With Java", "Gadis", "Person");
+		
+	}
+}

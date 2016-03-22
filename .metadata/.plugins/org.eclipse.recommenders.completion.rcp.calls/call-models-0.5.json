@@ -9,5 +9,10 @@
     "location": "/Users/chrisbastian/Desktop/code/CCSF/Java/Week_6/src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027/Users/chrisbastian/Desktop/code/CCSF/Java/Week_6/src\u0027. Skipped."
+  },
+  "/Users/chrisbastian/Desktop/code/CCSF/Java/Week_8/src": {
+    "location": "/Users/chrisbastian/Desktop/code/CCSF/Java/Week_8/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/chrisbastian/Desktop/code/CCSF/Java/Week_8/src\u0027. Skipped."
   }
 }
