@@ -1,0 +1,14 @@
+import javax.swing.*;
+public class KiloKConverter {
+	private JPanel panel;
+	private JLabel messageLabel;
+	private JTextField kiloTextField;
+	private final int WINDOW_WIDTH;
+	private final int WINDOW_LENGTH;
+	
+	public KiloConverter()
+	{
+		
+		
+	}
+}
