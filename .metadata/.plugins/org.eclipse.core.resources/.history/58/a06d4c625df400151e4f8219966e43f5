@@ -18,17 +18,12 @@ public class KiloConverter {
 		setVisable(true);
 	}
 	
-
 	private void buildPanel()
 	{
 		messageLabel = new JLabel("Enter a distance in kilometers: ");
 		kiloTextField = new JTextField(10);
 		calcButton = new JButton("Calculate");
 		panel = new JPanel();
-		
-		panel.add(messageLabel);
-		panel.add(kiloTextField);
-		panel.add(calcButton);
 		
 	}
 	

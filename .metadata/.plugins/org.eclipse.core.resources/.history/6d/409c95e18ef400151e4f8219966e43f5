@@ -18,7 +18,6 @@ public class KiloConverter {
 		setVisable(true);
 	}
 	
-
 	private void buildPanel()
 	{
 		messageLabel = new JLabel("Enter a distance in kilometers: ");
