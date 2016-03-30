@@ -6,12 +6,12 @@ public class KiloConverter extends JFrame {
 	private JTextField kiloTextField;
 	private JButton calcButton;
 	private final int WINDOW_WIDTH = 310;
-	private final int WINDOW_HEIGHT = 100;
+	private final int WINDOW_LENGTH = 100;
 	
 	public KiloConverter()
 	{
 		setTitle("Kilometer Converter");
-		setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
+		setSize(WINDOW_WIDTH, WINDOW_LENGTH);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		buildPanel();
 		add(panel);

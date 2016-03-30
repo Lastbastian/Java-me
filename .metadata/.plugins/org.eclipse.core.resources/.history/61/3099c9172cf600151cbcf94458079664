@@ -11,7 +11,7 @@ public class KiloConverter extends JFrame {
 	public KiloConverter()
 	{
 		setTitle("Kilometer Converter");
-		setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
+		setSize(WINDOW_WIDTH, WINDOW_LENGTH);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		buildPanel();
 		add(panel);
