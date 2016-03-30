@@ -1,9 +1,0 @@
-
-public class Course {
-
-	private String courseName;
-	private Instructor instructor;
-	private TextBook textBook;
-	
-	
-}

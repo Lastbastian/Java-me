@@ -29,6 +29,7 @@ public class KiloConverter extends JFrame {
 		panel.add(messageLabel);
 		panel.add(kiloTextField);
 		panel.add(calcButton);
+		
 	}
 	
 	public static void main(String[] args)
