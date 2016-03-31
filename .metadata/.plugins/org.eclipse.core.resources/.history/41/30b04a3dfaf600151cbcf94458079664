@@ -12,7 +12,7 @@ public class EventObject extends JFrame
 	
 	public EventObject()
 	{
-		setTitle("Event Object Demonstration");
+		setTitle("Even Object Demonstration");
 		setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
