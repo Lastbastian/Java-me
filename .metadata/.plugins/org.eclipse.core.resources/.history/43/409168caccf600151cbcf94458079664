@@ -43,18 +43,6 @@ public class KiloConverter extends JFrame {
 	private class CalcButtonListener implements ActionListener
 	{
 		
-		public void actionPerformed(ActionEvent e)
-		{
-			final double CONVERSION = 0.6214;
-			String input;
-			double miles;
-			
-			input = kiloTextField.getText();
-			miles = Double.parseDouble(input) * CONVERSION;
-			
-			JOptionPane.showMessageDialog(null, input + " kilometers is " + miles + " miles.");
-		}
-		
 	}
 	
 	public static void main(String[] args)
