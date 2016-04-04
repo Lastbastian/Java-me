@@ -4,7 +4,7 @@ import java.awt.event.*;
 public class CelciusConverter extends JFrame {
 	private JPanel panel;
 	private JLabel messageLabel;
-	private JTextField celciusTextField;
+	private JTextField kiloTextField;
 	private JButton calcButton;
 	private final int WINDOW_WIDTH = 310;
 	private final int WINDOW_HEIGHT = 100;
@@ -21,8 +21,8 @@ public class CelciusConverter extends JFrame {
 
 	private void buildPanel()
 	{
-		messageLabel = new JLabel("Enter a temperature in celcius: ");
-		celciusTextField = new JTextField(10);
+		messageLabel = new JLabel("Enter a distance in kilometers: ");
+		kiloTextField = new JTextField(10);
 		
 		calcButton = new JButton("Calculate");
 		calcButton.addActionListener(new CalcButtonListener());
@@ -31,7 +31,7 @@ public class CelciusConverter extends JFrame {
 		panel = new JPanel();
 		
 		panel.add(messageLabel);
-		panel.add(celciusTextField);
+		panel.add(kiloTextField);
 		panel.add(calcButton);
 	}	
 	
@@ -45,14 +45,14 @@ public class CelciusConverter extends JFrame {
 		
 		public void actionPerformed(ActionEvent e)
 		{
-			final double CONVERSION = 1.8;
+			final double CONVERSION = 0.6214;
 			String input;
-			double celcius;
+			double miles;
 			
-			input = celciusTextField.getText();
-			celcius = Double.parseDouble(input) * CONVERSION + 32;
+			input = kiloTextField.getText();
+			miles = Double.parseDouble(input) * CONVERSION;
 			
-			JOptionPane.showMessageDialog(null, input + " degrees celcius is " + celcius + " farenheit degrees.");
+			JOptionPane.showMessageDialog(null, input + " kilometers is " + miles + " miles.");
 		}
 		
 	}

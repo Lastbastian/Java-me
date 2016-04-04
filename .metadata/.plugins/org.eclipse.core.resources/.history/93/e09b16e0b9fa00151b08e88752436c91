@@ -47,12 +47,12 @@ public class CelciusConverter extends JFrame {
 		{
 			final double CONVERSION = 1.8;
 			String input;
-			double celcius;
+			double miles;
 			
 			input = celciusTextField.getText();
-			celcius = Double.parseDouble(input) * CONVERSION + 32;
+			miles = Double.parseDouble(input) * CONVERSION + 32;
 			
-			JOptionPane.showMessageDialog(null, input + " degrees celcius is " + celcius + " farenheit degrees.");
+			JOptionPane.showMessageDialog(null, input + " degrees celcius is " + miles + " farenheit degrees.");
 		}
 		
 	}
