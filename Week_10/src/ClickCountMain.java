@@ -7,4 +7,4 @@ public class ClickCountMain {
 
 		frame.setVisible(true);
 	}
-}
+}	
