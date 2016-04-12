@@ -19,8 +19,8 @@ public class StringProcessor {
 		StringProcessor stringReader = new StringProcessor(input);
 		
 		System.out.println ("The word count of your string is: " + stringReader.wordCount() + " words.");
-		System.out.println ("The upper case count in your string is: " + stringReader.uppercaseCount() + " character(s).");
-		System.out.println("The digit word count is: " + stringReader.digitWordCount() + ".");
+		System.out.println ("The upper case count in your string is: " + stringReader.uppercaseCount() + " characters.");
+		System.out.println("The digit word cout is: " + stringReader.digitWordCount() + ".");
 		System.out.println("The string with the spaces removed is: " + stringReader.getNoSpaceString() + ".");
 		System.out.println("The string with the vowles replaced is: " + stringReader.getNoVowelString() + ".");
 		System.out.println("The string with no digits is: " + stringReader.getNoDigitWordString() + ".");
@@ -90,14 +90,14 @@ public class StringProcessor {
 		
 		for (int index = 0; index < parts.length; index++){
 			if (parts[index].equals("one") ||
-					parts[index].equalsIgnoreCase("two") ||
-					parts[index].equalsIgnoreCase("three") ||
-					parts[index].equalsIgnoreCase("four") ||
-					parts[index].equalsIgnoreCase("five") ||
-					parts[index].equalsIgnoreCase("six") ||
-					parts[index].equalsIgnoreCase("seven") ||
-					parts[index].equalsIgnoreCase("eight") ||
-					parts[index].equalsIgnoreCase("nine")
+					parts[index].equals("two") ||
+					parts[index].equals("three") ||
+					parts[index].equals("four") ||
+					parts[index].equals("five") ||
+					parts[index].equals("six") ||
+					parts[index].equals("seven") ||
+					parts[index].equals("eight") ||
+					parts[index].equals("nine")
 				)
 				digitWords++;
 		}

@@ -18,9 +18,11 @@ public class StringProcessor {
 		
 		StringProcessor stringReader = new StringProcessor(input);
 		
+		System.out.println("Here is your string " + stringReader.string);
+		
 		System.out.println ("The word count of your string is: " + stringReader.wordCount() + " words.");
-		System.out.println ("The upper case count in your string is: " + stringReader.uppercaseCount() + " character(s).");
-		System.out.println("The digit word count is: " + stringReader.digitWordCount() + ".");
+		System.out.println ("The upper case count in your string is: " + stringReader.uppercaseCount() + " characters.");
+		System.out.println("The digit word cout is: ");
 		System.out.println("The string with the spaces removed is: " + stringReader.getNoSpaceString() + ".");
 		System.out.println("The string with the vowles replaced is: " + stringReader.getNoVowelString() + ".");
 		System.out.println("The string with no digits is: " + stringReader.getNoDigitWordString() + ".");
@@ -86,23 +88,23 @@ public class StringProcessor {
 	
 	int digitWordCount(){
 		int digitWords = 0;
-		String[] parts = string.split(" ");
+		char[] array = string.toCharArray();
 		
-		for (int index = 0; index < parts.length; index++){
-			if (parts[index].equals("one") ||
-					parts[index].equalsIgnoreCase("two") ||
-					parts[index].equalsIgnoreCase("three") ||
-					parts[index].equalsIgnoreCase("four") ||
-					parts[index].equalsIgnoreCase("five") ||
-					parts[index].equalsIgnoreCase("six") ||
-					parts[index].equalsIgnoreCase("seven") ||
-					parts[index].equalsIgnoreCase("eight") ||
-					parts[index].equalsIgnoreCase("nine")
-				)
-				digitWords++;
+		for (int index = 0; index < array.length; index++){
+			if (array[index].equals("one") ||
+					array[index].equals("two") ||
+					array[index].equals("three") ||
+					array[index].equals("four") ||
+					array[index].equals("five") ||
+					array[index].equals("six") ||
+					array[index].equals("seven") ||
+					array[index].equals("eight") ||
+					array[index].equals("nine")
+					)
+				digits++;
 		}
 		
-		return digitWords;
+		return digitCount;
 	}
 	
 	String getNoSpaceString(){

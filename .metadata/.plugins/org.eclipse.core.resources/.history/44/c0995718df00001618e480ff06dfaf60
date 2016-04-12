@@ -90,14 +90,14 @@ public class StringProcessor {
 		
 		for (int index = 0; index < parts.length; index++){
 			if (parts[index].equals("one") ||
-					parts[index].equalsIgnoreCase("two") ||
-					parts[index].equalsIgnoreCase("three") ||
-					parts[index].equalsIgnoreCase("four") ||
-					parts[index].equalsIgnoreCase("five") ||
-					parts[index].equalsIgnoreCase("six") ||
-					parts[index].equalsIgnoreCase("seven") ||
-					parts[index].equalsIgnoreCase("eight") ||
-					parts[index].equalsIgnoreCase("nine")
+					parts[index].equals("two") ||
+					parts[index].equals("three") ||
+					parts[index].equals("four") ||
+					parts[index].equals("five") ||
+					parts[index].equals("six") ||
+					parts[index].equals("seven") ||
+					parts[index].equals("eight") ||
+					parts[index].equals("nine")
 				)
 				digitWords++;
 		}
