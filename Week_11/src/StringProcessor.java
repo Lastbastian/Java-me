@@ -1,33 +1,6 @@
-import java.util.ArrayList;
-import java.util.Scanner;
-
-
 public class StringProcessor {
+	private static String string;
 	
-	static String string;
-	
-	public static void main(String[] args)
-	{
-		String input;
-		
-		Scanner keyboard = new Scanner(System.in);
-		System.out.println("Enter a line of text. ");
-		input = keyboard.nextLine();
-		
-		System.out.println("Input is: " + input);
-		
-		StringProcessor stringReader = new StringProcessor(input);
-		
-		System.out.println ("The word count of your string is: " + stringReader.wordCount() + " words.");
-		System.out.println ("The upper case count in your string is: " + stringReader.uppercaseCount() + " character(s).");
-		System.out.println("The digit word count is: " + stringReader.digitWordCount() + ".");
-		System.out.println("The string with the spaces removed is: " + stringReader.getNoSpaceString() + ".");
-		System.out.println("The string with the vowles replaced is: " + stringReader.getNoVowelString() + ".");
-		System.out.println("The string with no digits is: " + stringReader.getNoDigitWordString() + ".");
-		
-	}
-	
-
 	public StringProcessor(String s)
 	{
 		string = s;	
@@ -151,5 +124,4 @@ public class StringProcessor {
 		
 		return newString;
 	}
-
 }
