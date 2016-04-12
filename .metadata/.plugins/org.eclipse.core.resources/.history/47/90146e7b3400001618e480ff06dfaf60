@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+
+public class StringProcessor {
+
+	public static StringProcessor(String s)
+	{
+		
+		
+		
+		
+	}
+	
+//	void setString(String s)
+//	{
+//		
+//	}
+//	String getString()
+//	{
+//		return "Hello";
+//	}
+//	int wordCount(){}
+//	int uppercaseCount(){}
+//	int digitCount(){}
+//	int digitWordCount(){}
+//	String getNoSpaceString(){}
+//	String getNoVowelString(){}
+//	String getNoDigitWordString(){}
+
+}

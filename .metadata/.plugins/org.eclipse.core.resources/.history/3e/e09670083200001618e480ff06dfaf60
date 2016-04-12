@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+
+public class StringProcessor {
+	public static void main(String[] args)
+	{
+		String input;
+		
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Enter a line of text. ");
+		input = keyboard.nextLine();
+	}
+	
+	
+	StringProcessor(String s)
+	{
+		
+	}
+	
+	void setString(String s)
+	{
+	}
+	String getString()
+	{
+		return "Hello";
+	}
+	int wordCount(){}
+	int uppercaseCount(){}
+	int digitCount(){}
+	int digitWordCount(){}
+	String getNoSpaceString(){}
+	String getNoVowelString(){}
+	String getNoDigitWordString(){}
+
+}

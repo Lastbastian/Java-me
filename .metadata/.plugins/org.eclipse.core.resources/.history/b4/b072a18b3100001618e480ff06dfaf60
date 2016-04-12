@@ -1,0 +1,33 @@
+
+public class StringProcessor {
+	public static void main(String[] args)
+	{
+		String input;
+		
+		System.out.main("Enter a line of text. ");
+		
+	}
+	
+	
+	StringProcessor(String s)
+	{
+		
+	}
+	
+	void setString(String s)
+	{
+		String = s;
+	}
+	String getString()
+	{
+		return string;
+	}
+	int wordCount()
+	int uppercaseCount()
+	int digitCount()
+	int digitWordCount()
+	String getNoSpaceString()
+	String getNoVowelString()
+	String getNoDigitWordString()
+
+}

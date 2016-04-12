@@ -5,7 +5,7 @@ public class TestScoreReader {
 	private Scanner inputFile;
 	private String line;
 	
-	public TestScoreReader(String fileName) throws IOException
+	public TestScoreReader(String filename) throws IOException
 	{
 		File file = new File(filename);
 		inputFile = new Scanner(file);
@@ -20,7 +20,7 @@ public class TestScoreReader {
 		if (lineRead)
 			line = inputFile.nextLine();
 		
-		return lineRead
+		return lineRead;
 	}
 	
 	public double getAverage()

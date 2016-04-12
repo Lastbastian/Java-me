@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+
+public class StringProcessor {
+	String string;
+
+	public StringProcessor(String s)
+	{
+		string = "";		
+	}
+	
+	void setString(String s)
+	{
+		string = s;
+	}
+	
+	String getString()
+	{
+		return string;
+	}
+	
+	int wordCount()
+	{
+		
+		char[] array;
+		array = string.toCharArray();
+		int whitespace = 0;
+		
+		int count = 0;
+		for (int index = 0; index < array.length; index++)
+		{
+			if (Character.isWhitespace(array[i]))
+				whitespace++;
+		}
+		return count;
+		
+	}
+//	int uppercaseCount(){}
+//	int digitCount(){}
+//	int digitWordCount(){}
+//	String getNoSpaceString(){}
+//	String getNoVowelString(){}
+//	String getNoDigitWordString(){}
+
+}

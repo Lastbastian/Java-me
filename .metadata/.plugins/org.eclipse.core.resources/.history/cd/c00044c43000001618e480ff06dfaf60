@@ -1,0 +1,10 @@
+
+public class StringProcessor {
+	public static void main(String[] args)
+	{
+		
+		
+		System.out.main("Enter a line of text. ");
+	}
+
+}
