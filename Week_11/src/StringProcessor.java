@@ -104,39 +104,35 @@ public class StringProcessor {
 	}
 	
 	String getNoDigitWordString(){
-		
-		String[] parts = string.split("((?<=' ')|(?=' '))");
-		System.out.println(parts);
+		String[] parts = string.split("");
 		
 		StringBuilder strBuilder = new StringBuilder();
 		
-		for (int index = 0; index < parts.length; index++)
-			strBuilder.append(parts[index]);
-		
 		for(int index = 0; index < parts.length; index++)
 		{
-			if (parts[index] == "1")
+			if (parts[index].equals("1")) {
 				strBuilder.append("one");
-			else if (parts[index] == "2")
+			} else if (parts[index].equals("2")) {
 				strBuilder.append("two");
-			else if (parts[index] == "3")
+			} else if (parts[index].equals("3")) {
 				strBuilder.append("three");
-			else if (parts[index] == "4")
+			} else if (parts[index].equals("4")) {
 				strBuilder.append("four");
-			else if (parts[index] == "5")
+			} else if (parts[index].equals("5")) {
 				strBuilder.append("five");
-			else if (parts[index] == "6")
+			} else if (parts[index].equals("6")){
 				strBuilder.append("six");
-			else if (parts[index] == "7")
+			} else if (parts[index].equals("7")) {
 				strBuilder.append("seven");
-			else if (parts[index] == "8")
+			} else if (parts[index].equals("8")) {
 				strBuilder.append("eight");
-			else if (parts[index] == "9")
+			} else if (parts[index].equals("9")) {
 				strBuilder.append("nine");
-			else
-				strBuilder.append(parts[index]);		
+			} else {
+				strBuilder.append(parts[index]);
+			}
 		}
-		
+			
 		String newString = strBuilder.toString();
 		
 		return newString;
