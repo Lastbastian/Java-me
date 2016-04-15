@@ -29,12 +29,4 @@ public class GradedActivity
 		
 		return letterGrade;
 	}
-
-	public static void main(String[] args)
-	{
-	
-
-	}	
-	
-	
 }

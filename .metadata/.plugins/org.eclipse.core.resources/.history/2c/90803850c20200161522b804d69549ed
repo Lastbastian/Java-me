@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+
+public class FianlExamDemo {
+	public static void main(String[] args)
+	{
+		String input;
+		int questions;
+		int missed;
+		
+		input = JOptionPane.showInputDialog("How many questions are on the final exam? ")
+		
+		
+	}
+
+}
