@@ -24,5 +24,10 @@
     "location": "/Users/chrisbastian/Desktop/code/CCSF/Java/Week_11/src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027/Users/chrisbastian/Desktop/code/CCSF/Java/Week_11/src\u0027. Skipped."
+  },
+  "/Users/chrisbastian/Desktop/code/CCSF/Java/Week_12/src": {
+    "location": "/Users/chrisbastian/Desktop/code/CCSF/Java/Week_12/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/chrisbastian/Desktop/code/CCSF/Java/Week_12/src\u0027. Skipped."
   }
 }
