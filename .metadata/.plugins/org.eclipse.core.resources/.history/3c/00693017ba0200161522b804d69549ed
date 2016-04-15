@@ -1,0 +1,22 @@
+public class GradedActivity
+{
+	private double score;
+	
+	public void setScore(double s)
+	{
+		score = s;		
+	}
+	
+	public double getScore()
+	{
+		return score;
+	}
+	
+	public static void main(String[] args)
+	{
+	
+
+	}	
+	
+	
+}
