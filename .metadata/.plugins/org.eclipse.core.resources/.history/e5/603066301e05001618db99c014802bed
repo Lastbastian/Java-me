@@ -16,13 +16,7 @@ public class CurvedActivity extends GradedActivity
 		super.setScore(rawScore * percentage);
 	}
 	
-	public double getRawScore()
-	{
-		return rawScore;
-	}
 	
-	public double getPercentage()
-	{
-		return percentage;		
-	}
+	
+	
 }

@@ -1,0 +1,9 @@
+import java.util.scanner;
+public class CurvedActivityDemo {
+	
+	public static void main(String[] args)
+	{
+		
+	}
+
+}
