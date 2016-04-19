@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class ProtectedDemo {
+	String input;
+	int questions;
+	int missed;
+
+	Scanner keyboard = new Scanner(System.in);
+	input = keyboard.nextInt();
+	
+	
+	
+	
+}
