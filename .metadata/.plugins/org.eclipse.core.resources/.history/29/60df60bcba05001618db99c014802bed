@@ -1,0 +1,14 @@
+
+public class FinalExam2 {
+	
+	private int numQuestions;
+	private double pointsEach;
+	private int numMissed;
+	
+	public FinalExam2(int questions, int missed)
+	{
+		
+		
+	}
+
+}
