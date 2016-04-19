@@ -1,0 +1,20 @@
+
+public class PassFailExam extends PassFailActivity
+{
+	private int numQuestions;
+	private double pointsEach;
+	private int numMissed;
+	
+	public PassFailExam(int questions, int missed, double minPassing)
+	{
+		// Call the superclass constructor
+		super(minPassing);
+		
+		numQuestions = questions;
+		numMissed = missed;
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,12 @@
+
+public class PassFailActivity extends GradedActivity
+{
+	private double minPassingScore = 0.0;
+	
+	public PassFailActivity(double mps)
+	{
+		
+		
+	}
+
+}

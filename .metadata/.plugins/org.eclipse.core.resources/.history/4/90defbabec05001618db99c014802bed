@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class PassFailExamDemo {
+	public static void main(String[] args)
+	{
+		int questions;
+		int missed;
+		double minPassing;
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.println("How many questions are on the exam? ");
+		questions = keyboard.nextInt();
+		
+		System.out.println("How many questions did the student miss? ");
+		missed = keysboard.nextInt()
+	}
+
+}

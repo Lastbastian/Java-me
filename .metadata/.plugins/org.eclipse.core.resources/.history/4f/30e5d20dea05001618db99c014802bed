@@ -1,0 +1,15 @@
+
+public class PassFailExam extends PassFailActivity
+{
+	private int numQuestions;
+	private double pointsEach;
+	private int numMissed;
+	
+	public PassFailExam(int question, int missed, double minPassing)
+	{
+		
+		
+	}
+	
+
+}
