@@ -1,0 +1,6 @@
+
+public class RandomNumberGuesser extends NumberGuesser 
+{
+	
+
+}

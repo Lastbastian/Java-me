@@ -1,0 +1,18 @@
+import java.util.Random;
+
+public class RandomNumberGuesser extends NumberGuesser 
+{
+	int randomGuess = 0;
+	Random rand = new Random();
+	
+	@Override
+	public int getCurrentGuess(NumberGuesser guess)
+	{
+		Random rand = new Random();
+		return randomGuess = rand.nextInt(guess.upper) + guess.lower;
+	}
+
+	
+	
+	int card1 = rand.nextInt(10) + 1
+}

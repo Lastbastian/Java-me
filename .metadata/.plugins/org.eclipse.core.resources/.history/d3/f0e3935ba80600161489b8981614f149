@@ -1,0 +1,18 @@
+import java.util.Random;
+
+public class RandomNumberGuesser extends NumberGuesser 
+{
+	int randomGuess = 0;
+	Random rand = new Random();
+	
+	public class RandomNumberGuesser()
+	{
+		
+	}
+	
+	@Override
+	public int getCurrentGuess(NumberGuesser guess)
+	{
+		return randomGuess = rand.nextInt(guess.upper) + guess.lower;
+	}
+}

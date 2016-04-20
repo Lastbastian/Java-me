@@ -1,0 +1,29 @@
+import java.util.Random;
+
+public class RandomNumberGuesser extends NumberGuesser 
+{
+	Random rand = new Random();
+	
+	public RandomNumberGuesser()
+	{
+		lower = 1;
+		upper = 100;
+	}
+	
+	public RandomNumberGuesser(int lowerBound, int upperBound)
+	{
+		lower = lowerBound;
+		upper = upperBound;
+	}
+	
+	@Override
+	public int getCurrentGuess(NumberGuesser guess)
+	{
+		return rand.nextInt(guess.upper) + guess.lower;
+		rand.nextInt((max - min) + 1) + min;
+		
+		
+	}
+
+
+}
