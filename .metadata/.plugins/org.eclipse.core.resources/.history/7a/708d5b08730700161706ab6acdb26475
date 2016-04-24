@@ -17,7 +17,7 @@ public class GuessingProgram {
 			while (response != 'c')
 			{
 				guess = guesser.getCurrentGuess(guesser);
-//				System.out.println("Lower = " + guesser.lower + ", higher = " + guesser.upper + ", guess = " + guess);
+				System.out.println("Lower = " + guesser.lower + ", higher = " + guesser.upper + ", guess = " + guess);
 				
 				System.out.println("Is the number " +  guess + " (h/l/c):");	
 				Scanner keyboard = new Scanner(System.in);
