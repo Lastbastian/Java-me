@@ -5,11 +5,11 @@ public class CompactDisc implements RetailItem
 	private String artist;
 	private double retailPrice;
 	
-	public CompactDisc(String cdTitle, String cdArtist, double cdPrice)
+	public CompactDisc(String cdTitle, String cdArtist, double string)
 	{
 		title = cdTitle;
 		artist = cdArtist;
-		retailPrice = cdPrice;
+		retailPrice = string;
 	}
 	
 	public String getTitle()

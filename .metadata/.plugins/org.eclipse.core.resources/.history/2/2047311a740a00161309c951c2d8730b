@@ -1,0 +1,12 @@
+
+public class PolymorphicInterfaceDemo {
+	public static void main(String[] args)
+	{
+		CompactDisc cd = new CompactDisc("Purple Rain", "Prince", 15.99);
+	
+		DvdMovie dvd = new DvdMovie("Purple Rain", "Prince", 59.99);
+		
+		
+	}
+
+}
