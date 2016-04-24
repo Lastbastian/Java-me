@@ -1,0 +1,12 @@
+
+public class FinalExam3 extends GradedActivity {
+	private int numQuestions;
+	private double pointsEach;
+	private int numMissed;
+	
+	public FinalExam3(int questions, double points, int missed)
+	{
+		
+		
+	}
+}
