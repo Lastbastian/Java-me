@@ -1,0 +1,7 @@
+
+public abstract class Person implements Displayable
+{
+	private String name;
+	
+
+}

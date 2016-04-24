@@ -32,14 +32,13 @@ public class Circle {
 		
 	}
 	
-	Point getOrigin()
+	double getOrigin()
 	{
-		
-		
+		return x;
 	}
 	void setOrigin(Point p)
 	{
-		x = p.
+		x = p.x
 		y = p.y;
 	}
 	void setX(double value)

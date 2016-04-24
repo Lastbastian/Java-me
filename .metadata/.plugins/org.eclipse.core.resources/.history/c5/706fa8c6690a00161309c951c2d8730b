@@ -1,0 +1,7 @@
+
+public class Person implements Displayable
+{
+	private Stromg name;
+	
+
+}
