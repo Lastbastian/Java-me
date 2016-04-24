@@ -1,0 +1,15 @@
+
+public class CompactDisc implements RetailItem
+{
+	private String title;
+	private String artist;
+	private double retailPrice;
+	
+	public CompactDisc(String cdTitle, String cdArtist, double cdPrice)
+	{
+		title = cdTitle;
+		artist = cdArtist;
+		retailPrice = cdPrice;
+	}
+
+}
