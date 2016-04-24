@@ -1,0 +1,11 @@
+
+public class CompSciStudentDemo {
+
+	public static void main(String[] args)
+	{
+		CompSciStudent csStudent = new CompSciStudent("Jennifer Haynes", "Wx1928734", 2015);
+		
+		
+		
+	}
+}

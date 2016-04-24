@@ -1,0 +1,9 @@
+
+public class CompSciStudent {
+	private final int MATH_HOURS = 20;
+	private final int CS_HOURS = 40;
+	private fianl int GEN_ED_HOURS;
+	
+	
+
+}
