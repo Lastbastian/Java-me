@@ -1,0 +1,7 @@
+
+public class GridWriter {
+	
+	private int x;
+	private int y;
+
+}

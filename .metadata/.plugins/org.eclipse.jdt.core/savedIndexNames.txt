@@ -23,7 +23,6 @@ INDEX VERSION 1.126+/Users/chrisbastian/Desktop/code/CCSF/Java/.metadata/.plugin
 1579393419.index
 156905802.index
 3712507179.index
-1487364437.index
 3321539481.index
 3113979020.index
 690262301.index

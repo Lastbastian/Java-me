@@ -1,0 +1,53 @@
+public class MyRectangle extends GridItem
+{
+	private int length;
+	private int width;
+	
+	
+	// Constructor
+	// @param l The length of the rectangle
+	// @param w The width of the rectangle
+	public Rectangle(int l, int w)
+	{
+		length = l;
+		width = w;
+	}
+	
+	
+	// The setLength method stores a value in the length field. 
+	public void setLength(int l)
+	{
+		length = l;
+	}
+	
+	
+	// The setWidth method stores a value in the width field. 
+	public void setWidth(int w)
+	{
+		width = w;
+	}
+	
+	
+	// The getLength method returns the a rectangle objects length.
+	// @return The value in the length field
+	public int getLength()
+	{
+		return length;
+	}
+	
+	
+	// The getWidth method returns the a rectangle objects width.
+	// @return The value in the width field
+	public int getWidth()
+	{
+		return width;
+	}
+	
+	
+	// The getArea method returns a rectangle objects area.
+	// @return The product of length times width
+//	public int getArea()
+//	{
+//		return length * width;
+//	}
+}
