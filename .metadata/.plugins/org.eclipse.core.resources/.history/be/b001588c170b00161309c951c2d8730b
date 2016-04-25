@@ -1,0 +1,13 @@
+
+public class MySquare extends GridItem {
+	private int length;
+	private int width;
+	private int area;
+	
+	public int getArea()
+	{
+		
+		
+	}
+
+}

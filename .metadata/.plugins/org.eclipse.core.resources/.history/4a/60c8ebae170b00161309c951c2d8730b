@@ -1,0 +1,10 @@
+
+public class MySquare extends GridItem {
+	private int side;
+	
+	public double getArea()
+	{
+		return side * 2;
+	}
+
+}

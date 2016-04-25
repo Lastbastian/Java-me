@@ -1,0 +1,16 @@
+
+public class MySquare extends GridItem {
+	private int side;
+//	 constructor, and implementations of getArea and containsPoint
+	
+	public MySquare(s)
+	{
+		side = s;
+	}
+	
+	public double getArea()
+	{
+		return side * side;
+	}
+
+}

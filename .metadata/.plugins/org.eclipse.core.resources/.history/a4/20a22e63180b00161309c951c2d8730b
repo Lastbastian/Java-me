@@ -1,0 +1,38 @@
+
+public class MySquare extends GridItem {
+	private int side;
+//	 constructor, and implementations of getArea and containsPoint
+	
+	public MySquare(int s)
+	{
+		side = s;
+	}
+	
+	public double getArea()
+	{
+		return side * side;
+	}
+	
+	public boolean containsPoint(int xValue, int yValue)
+	{
+		 return xValue >= x &&
+				xValue <= x + side &&
+				yValue >= y &&
+				yValue <= y + side;
+	}	
+//	public boolean containsPoint(int xValue, int yValue) {
+//		return	xValue >= x &&
+//				xValue <= x + width &&
+//				yValue >= y &&
+//				yValue <= y + height;
+//	}
+//	
+//	public boolean containsPoint(int xValue, int yValue) {
+//		double dx = x - xValue;
+//		double dy = y - yValue;
+//		double distance = Math.sqrt(Math.pow(dx, 2) + Math.pow(dy, 2));
+//		
+//		return distance <= radius;
+//	}
+
+}

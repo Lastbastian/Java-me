@@ -1,0 +1,20 @@
+
+public class MySquare {
+//	
+//	height and width, or the circle’s radius.
+//	Also give it an appropriate constructor, and implementations of getArea and containsPoint
+	
+	private int length;
+	private int width;
+	
+	public setWidth(w)
+	{
+		width = w;
+	}
+	
+	public setLength(l)
+	{
+		length = l;
+	}
+
+}
