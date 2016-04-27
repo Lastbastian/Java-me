@@ -1,0 +1,10 @@
+import java.io.*;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+public class ExceptionMessage {
+	public static void main(String[] args)
+	{
+		
+	}
+}
