@@ -1,0 +1,17 @@
+
+public class ParseIntError {
+	public static void main(String[] args)
+	{
+		String str;
+		int number;
+		
+		try
+		{
+			number = Integer.parseInt(str);
+		}
+		catch()
+		{
+			
+		}
+	}
+}

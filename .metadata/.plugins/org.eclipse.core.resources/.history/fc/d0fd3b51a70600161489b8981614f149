@@ -1,7 +1,0 @@
-
-public class GuessingProgramRandom {
-	public static void main(String[] args)
-	{
-		RandomNumberGuesser random = new RandomNumberGuesser()
-	}
-}
