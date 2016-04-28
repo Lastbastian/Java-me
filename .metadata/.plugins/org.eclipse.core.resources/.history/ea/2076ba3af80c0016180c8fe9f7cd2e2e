@@ -1,0 +1,34 @@
+import java.io.*;
+import java.util.*;
+import javax.swing.JOptionPane;
+
+public class SalesReport {
+	public static void main(String[] args)
+	{
+		String filename = "SalesData.txt";
+		int months = 0;
+		double oneMonth;
+		double totalSales = 0.0;
+		double averageSales;
+		
+		try
+		{
+			File file = new File(fileName);
+			Scanner inputFile = new Scanner(file);
+			
+			while (inputFile.hasNext())
+			{
+				oneMonth = inputFile.nextDouble();
+				totalSales += oneMonth;
+				months++;
+			}
+				
+		
+		}
+		catch()
+		{
+			
+		}
+	}
+
+}
