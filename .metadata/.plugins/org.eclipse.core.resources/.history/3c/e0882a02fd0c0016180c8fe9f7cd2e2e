@@ -34,9 +34,9 @@ public class SalesReport {
 		}
 		catch(FileNotFoundException e)
 		{
-			JOptionPane.showMessageDialog(null,"The file " + filename + " does not exist.");
+			JOptionPane.showMessageDialog(null,"Non-numeric data found in the file.");
 		}
-		catch(InputMismatchException e)
+		catch(InputMissmatchException e)
 		{
 			JOptionPane.showMessageDialog(null,"Non-numeric data found in the file.");
 		}
