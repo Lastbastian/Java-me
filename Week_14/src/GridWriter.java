@@ -95,4 +95,31 @@ public class GridWriter {
 		// The old array will be garbage collected
 		items = temp;
 	}
+	
+	/**
+	 *  returns the number of GridItems stored
+	 * @numItems 
+	 */
+	
+	public int size()
+	{
+		int numItems = 0;
+		
+		for (int index = 0; index < items.length; index++)
+		{
+			if (items[index] != null)
+				numItems++;
+		}
+				
+		return numItems;
+	}		
+	
+	public GridItem get(int index)  // should return the stored GridItems by index.
+	{
+		if (index > size() - 1)
+		{
+			throw new IndexOutOfBoundsException("This index you provided is beyond the bounds of the array.");
+		}
+		return items[index];
+	}
 }
