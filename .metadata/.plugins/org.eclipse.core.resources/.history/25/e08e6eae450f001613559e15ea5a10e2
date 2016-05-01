@@ -1,0 +1,13 @@
+
+public class NegativeStartingBalance extends Exception {
+	public NegativeStartingBalance()
+	{
+		super("Error: negative starting balance");
+	}
+	
+	public NegativeStartingBalance(amt)
+	{
+		
+	}
+
+}
