@@ -1,0 +1,51 @@
+
+public class NumberGuesser {
+	
+	protected int high;
+	protected int low;
+	
+	private int originalHigh;
+	private int originalLow;
+	
+	private int previousGuess;
+	private int numGuesses = 1;
+	
+	public NumberGuesser(int l, int h) {
+		low = originalLow = l;
+		high = originalHigh = h;
+	}
+	
+	public int getCurrentGuess() {	
+		numGuesses++;
+		if (numGuesses > 6)
+		{
+			throw new IllegalStateException("Too many guesses." + previousGuess + "!");
+		}
+		return (high + low) / 2;
+	}
+	
+	public void higher() {
+		if (getCurrentGuess() == previousGuess)
+		{
+			throw new IllegalStateException("HUMAN INTERFACE ERROR - the only value available is " + previousGuess + "!");
+		}
+		
+		low = getCurrentGuess() + 1;
+		previousGuess = low;
+	}
+	
+	public void lower() {
+		if (getCurrentGuess() == previousGuess)
+		{
+			throw new IllegalStateException("HUMAN INTERFACE ERROR - the only value available is " + previousGuess + "!");
+		}
+			
+		high = getCurrentGuess() - 1;
+		previousGuess = high;
+	}
+	
+	public void reset() {
+		low = originalLow;
+		high = originalHigh;
+	}
+}

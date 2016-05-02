@@ -120,6 +120,7 @@ public class GridWriter {
 		{
 			throw new IndexOutOfBoundsException("This index you provided is beyond the bounds of the array.");
 		}
+		
 		return items[index];
 	}
 }

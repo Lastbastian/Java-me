@@ -1,8 +1,0 @@
-
-public class PolymorphicInterfaceDemo {
-	public static void main(String[] args)
-	{
-		CompactDisc cd = new CompactDisc("Purple Rain", "Prince", "15.99");
-	}
-
-}

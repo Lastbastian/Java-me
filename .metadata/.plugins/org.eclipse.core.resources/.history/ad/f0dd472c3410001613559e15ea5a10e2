@@ -1,0 +1,54 @@
+
+public class NumberGuesser {
+	
+	protected int high;
+	protected int low;
+	
+	private int originalHigh;
+	private int originalLow;
+	
+	private int previousGuess;
+	private int numGuesses;
+	
+	public NumberGuesser(int l, int h) {
+		low = originalLow = l;
+		high = originalHigh = h;
+	}
+	
+	public int getCurrentGuess() {	
+		return (high + low) / 2;
+	}
+
+	public void higher() {
+		try {
+			while (low >= high) {
+				low = getCurrentGuess() + 1;
+	         }
+	    }
+	    catch (IllegalStateException e) {
+	    	System.out.println("You have made and error - the compu-matrix has already guessed that number!");
+	    }
+	}
+	
+	public void lower() {
+		
+		try {
+			while (high <= low) {
+				high = getCurrentGuess() - 1;
+	         }
+	    }
+	    catch (IllegalStateException e) {
+	    	System.out.println("You have made and error - the compu-matrix has already guessed that number!");
+	    }
+		
+		if (high <= low)
+		{
+			throw new IllegalStateException("You have made and error - the compu-matrix has already guessed that number!");
+		}
+	}
+	
+	public void reset() {
+		low = originalLow;
+		high = originalHigh;
+	}
+}

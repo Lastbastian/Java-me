@@ -24,11 +24,21 @@ public class RandomNumberGuesser extends NumberGuesser {
 	}
 	
 	public void higher() {
+		if (super.low >= super.high)
+		{
+			throw new IllegalStateException("You have made and error - the compu-matrix has already guessed that number");
+		}
+		
 		super.higher();
 		randomValueNeedsUpdating = true;
 	}
 	
 	public void lower() {
+		if (super.high <= super.low)
+		{
+			throw new IllegalStateException("You have made and error - the compu-matrix has already guessed that number");
+		}
+		
 		super.lower();
 		randomValueNeedsUpdating = true;
 	}
