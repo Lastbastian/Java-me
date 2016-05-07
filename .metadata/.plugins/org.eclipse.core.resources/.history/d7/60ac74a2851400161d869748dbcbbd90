@@ -1,0 +1,25 @@
+
+public class BlinkerCell extends AbstractCell {
+
+	public BlinkerCell(int r, int c, ConwayWorld w)
+	{
+		super(r, c, w);	
+	}
+	
+	public  AbstractCell cellForNextGeneration() {
+		return this;
+	}
+	
+	public boolean willBeAliveInNextGeneration() {
+		return false;
+	}
+	
+	public boolean getIsAlive() {
+		return true;
+	}
+	
+	public char displayCharacter() {
+		return '*';
+	}
+		
+}

@@ -1,0 +1,8 @@
+
+public class BlinkerCell extends AbstractCell {
+
+	public BlinkerCell()
+	{
+		
+	}
+}

@@ -22,6 +22,10 @@ public class ConwayMain {
 		// Add an always-alive cells
 		AbstractCell n = new NeverAliveCell(17, 17, world);
 		world.replaceCell(n);
+		
+		// Add an always-alive cells
+		AbstractCell b = new BlinkerCell(16, 3, world);
+		world.replaceCell(b);
 			
 		// Go!	
 		do {
