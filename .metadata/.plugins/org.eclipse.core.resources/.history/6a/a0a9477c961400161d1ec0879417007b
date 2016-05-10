@@ -1,0 +1,20 @@
+//**************************************************
+// Assignment4.java
+// inputs       : 
+// outputs      : 
+// Written by   : Chris Bastian
+// Last Modified: 2/16/16
+//**************************************************
+
+import java.util.Scanner;
+
+public class Assignment4
+{
+	public static void main(String[] args)
+	{
+		
+							
+		System.out.println("Enter five numeric cards, no face cards. Use 2 - 9.");
+	}
+}
+

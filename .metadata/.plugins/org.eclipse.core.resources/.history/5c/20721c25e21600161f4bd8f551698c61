@@ -1,0 +1,183 @@
+public class Circle {
+	Point origin;
+	double radius;
+	
+	Circle(Point o, double r)
+	{
+		
+	}
+	
+	Circle(double xValue, double yValue, double r)
+	{
+		
+	}
+	
+	Circle()
+	{
+		
+	}
+	
+	Circle(Circle c)
+	{
+		
+	}
+
+	Point getOrigin()
+	{
+		return origin;
+	}
+	
+	void setOrigin(Point p)
+	{
+		origin = p;
+	}
+	
+	void setX(double value)
+	{
+		origin.setX(value);
+	}
+	
+	
+	double getX()
+	{
+		return origin.getX();
+	}
+	
+	void setY(double value)
+	{
+		origin.setY(value);
+	}
+	
+	double getY()
+	{
+		return origin.getY();
+	}
+	
+	void setRadius(double value)
+	{
+		radius = value;
+	}
+	
+	double getRadius()
+	{
+		return radius;
+	}
+	
+	double getArea()
+	{
+		return Math.PI * Math.pow(radius, 2); 	
+	}
+	
+	public String toString()
+	{		
+		String str = "The x coordinate is: " + this.getX() + "\nThe y coordinate is: " + this.getY() + "\nThe radius is: " + this.radius;
+		
+		return str;
+	}
+	
+	public boolean equals(Circle c)
+	{
+		
+		return true;
+	}
+//	boolean doesOverlap(Circle c)
+	
+
+
+}
+
+
+
+//public class Circle {
+//
+//	double radius;
+//	double y;
+//	double x;
+//	
+//	Circle(Point o, double r)
+//	{
+//		o.x = 0;
+//		o.y = 0;
+//		radius = r;
+//	}
+//	
+//	Circle(double xValue, double yValue, double r)
+//	{
+//		x = xValue;
+//		y = yValue;
+//		radius = r;
+//	}
+//	
+////	create a new Point object with an x and y coordinate of 0, and use this point object to initialize the origin member. 
+////	It should set the radius to 1.
+//	Circle()
+//	{
+//		Point newPoint = new Point(0, 0);
+//		radius = 1;
+//	}
+//	Circle(Circle c)
+//	{
+//		
+//	}
+//	
+//	double getOrigin()
+//	{
+//		return x;
+//	}
+//	void setOrigin(Point p)
+//	{
+//		x = p.x
+//		y = p.y;
+//	}
+//	void setX(double value)
+//	{
+//		x = value;
+//	}
+//	
+//	double getX()
+//	{
+//		return x;
+//	}
+//	
+//	void setY(double value)
+//	{	
+//		y = value;
+//	}
+//	
+//	double getY()
+//	{
+//		return y;
+//	}
+//	
+//	void setRadius(double value)
+//	{
+//		radius = value;
+//	}
+//	
+//	double getRadius()
+//	{
+//		return radius;
+//	}
+//	
+//	double getArea()
+//	{
+//		double area = Math.PI * Math.pow(radius, 2);
+//		
+//		return area;
+//	}
+//	
+//	String toString()
+//	{
+//		
+//	}
+//	
+//	boolean equals(Circle c)
+//	{
+//		
+//	}
+//	
+//	boolean doesOverlap(Circle c)
+//	{
+//		
+//	}
+//}

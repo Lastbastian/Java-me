@@ -1,0 +1,102 @@
+public class Circle {
+	Point origin;
+	double radius;
+	
+	Circle(Point o, double r)
+	{
+		
+		
+	}
+	
+	Circle(double xValue, double yValue, double r)
+	{
+		origin.setX(xValue);
+		origin.setY(xValue);
+		radius = r;
+	}
+	
+	Circle()
+	{
+		origin.setX(0);
+		origin.setY(0);
+		radius = 0;
+	}
+	
+	Circle(Circle c)
+	{
+		this.origin.setX(c.getX());
+		this.origin.setY(c.getY());
+		radius = c.getRadius();
+	}
+
+	Point getOrigin()
+	{
+		return origin;
+	}
+	
+	void setOrigin(Point p)
+	{
+		origin = p;
+	}
+	
+	void setX(double value)
+	{
+		origin.setX(value);
+	}
+	
+	
+	double getX()
+	{
+		return origin.getX();
+	}
+	
+	void setY(double value)
+	{
+		origin.setY(value);
+	}
+	
+	double getY()
+	{
+		return origin.getY();
+	}
+	
+	void setRadius(double value)
+	{
+		radius = value;
+	}
+	
+	double getRadius()
+	{
+		return radius;
+	}
+	
+	double getArea()
+	{
+		return Math.PI * Math.pow(radius, 2); 	
+	}
+	
+	public String toString()
+	{		
+		String str = "The x coordinate is: " + this.getX() + "\nThe y coordinate is: " + this.getY() + "\nThe radius is: " + this.radius;
+		
+		return str;
+	}
+
+	public boolean equals(Circle c)
+	{
+		return this.getX() == c.getX() && this.getY() == c.getY();
+	}
+	
+	boolean doesOverlap(Circle c)
+	{
+		double distance;
+		boolean result = false;
+		
+		distance = Math.sqrt(Math.pow((c.getX() - this.getX()), 2) + Math.pow((c.getY() - this.getY()), 2));
+		
+		if (distance < (c.radius + this.radius))
+			result =  true;
+		
+		return result;
+	}
+}
