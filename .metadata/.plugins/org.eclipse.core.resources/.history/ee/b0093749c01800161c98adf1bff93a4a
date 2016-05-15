@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class Ship {
+	ArrayList<Integer> shipPoints = new ArrayList<Integer>();
+	ArrayList<Integer> hitPoints = new ArrayList<Integer>();
+	
+	Ship(Point origin, boolean isVertical, int length){}
+	
+	boolean containsPoint(Point p)
+	{
+		
+	}
+	
+	
+
+}

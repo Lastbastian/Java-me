@@ -1,0 +1,12 @@
+
+public class Board {
+	int rows;
+	int columns;
+	
+	public Board(int rValue, int cValue)
+	{
+		rows = rValue;
+		columns = cValue;
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class Battleship {
+
+	Ship submarine = new Ship(,,3);
+	Ship destroyer =  new Ship(,,4);
+	Ship carrier = new Ship(,,5);
+	Ship patrol = new Ship(,,2);
+	Ship battleship = new Ship(,,4);
+	
+	Board newBoard = newBoard(10,10);
+	
+}

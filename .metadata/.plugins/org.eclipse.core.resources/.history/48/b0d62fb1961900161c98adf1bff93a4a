@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+
+
+public class Board {
+	static final int ROWS = 10;
+	static final int COLS = 10;
+	
+	private ArrayList<Character> boardSpaces = new ArrayList<Character>();
+	
+//	private AbstractCell[][] grid = new AbstractCell[ROWS][COLS]; 
+	
+	public Board() {
+		
+		for (int r = 0; r < ROWS; r++) {
+			for (int c = 0; c < COLS; c++) {
+				grid[r][c] = new Point(r, c);
+			}
+		}
+	}
+
+	public void display() {
+		for (int r = 0; r < ROWS; r++) {
+			for (int c = 0; c < COLS; c++) {
+				System.out.print(" " + grid[r][c].displayCharacter());		
+			}
+			
+			System.out.println();
+		}
+	}
+}

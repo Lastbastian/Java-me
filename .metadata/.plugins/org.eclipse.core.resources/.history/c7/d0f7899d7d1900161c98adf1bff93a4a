@@ -1,0 +1,16 @@
+
+public class Battleship {
+	
+	Point sOrigin = new Origin(1,1);
+	Point dOrigin = new Origin(3,4);
+	Point sOrigin = new Origin(3,4);
+
+	Ship submarine = new Ship(sOrigin,false,3);
+	Ship destroyer =  new Ship(,false,4);
+	Ship carrier = new Ship(,true,5);
+	Ship patrol = new Ship(,true,2);
+	Ship battleship = new Ship(,false,4);
+	
+	Board newBoard = newBoard(10,10);
+	
+}

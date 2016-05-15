@@ -1,0 +1,23 @@
+
+public class Battleship {
+	
+	public void static main(String[] args)
+	{
+	
+		Point sOrigin = new Point(1,1);
+		Point dOrigin = new Point(5,5);
+		Point cOrigin = new Point(10,1);
+		Point pOrigin = new Point(2,6);
+		Point bOrigin = new Point(3,7);
+	
+		Ship submarine = new Ship(sOrigin, false, 3);
+		Ship destroyer = new Ship(dOrigin, false, 4);
+		Ship carrier = new Ship(cOrigin, true, 5);
+		Ship patrol = new Ship(pOrigin,true,2);
+		Ship battleship = new Ship(bOrigin,false,4);
+		
+		Board newBoard = new Board();
+		System.out.println("Would you like to play?");
+	}
+
+}

@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+
+public class Board {
+	static final int ROWS = 10;
+	static final int COLS = 10;
+	
+	private ArrayList<Point> boardSpaces = new ArrayList<Point>();
+	
+	public Board()
+	{
+		for (int r = 0; r < ROWS; r++)
+		{
+			for (int c = 0; c < COLS; c++)
+			{
+				boardSpaces.add(new Point(r, c));
+			}
+		}
+	}
+
+	public void display() {
+		for (int r = 0; r < ROWS; r++)
+		{
+			System.out.println(r);
+			int index = 0;
+			
+			for (int c = 0; c < COLS; c++) {
+				System.out.print(r + " " + boardSpaces.get(index).displayCharacter() + " ");		
+			}
+			
+			index++;
+			
+			System.out.println();
+		}
+	}
+}

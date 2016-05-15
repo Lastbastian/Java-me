@@ -1,0 +1,24 @@
+
+public class Board {
+	static final int ROWS = 10;
+	static final int COLS = 10;
+	
+	public Board() {
+		
+		for (int r = 0; r < ROWS; r++) {
+			for (int c = 0; c < COLS; c++) {
+				grid[r][c] = new ConwayCell(r, c, this);
+			}
+		}
+	}
+
+	public void display() {
+		for (int r = 0; r < ROWS; r++) {
+			for (int c = 0; c < COLS; c++) {
+				System.out.print(" " + grid[r][c].displayCharacter());		
+			}
+			
+			System.out.println();
+		}
+	}
+}
