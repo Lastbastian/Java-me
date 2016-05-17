@@ -14,9 +14,6 @@ public class Point {
 	
 	public void setY(int value) { y = value; }
 	public int getY() { return y; }
-//	
-	public char displayCharacter() {
-	return '~';
-//		return isMiss ? '!' : '.';
-	}
+
+	public char displayCharacter() { return '~'; }
 }

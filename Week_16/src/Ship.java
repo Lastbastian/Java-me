@@ -4,7 +4,11 @@ public class Ship {
 	boolean isVertical;
 	int size;
 	Point origin;
+	int hits;
+	boolean sunk = false;
 	
+	ArrayList<Point> ship = new ArrayList<Point>();
+
 //	this constructor accepts the origin or the ship (its lowest, or leftmost point), 
 //	its length, and its orientation (vertical, or horizontal).
 	Ship(Point myOrigin, boolean vertical, int length)
@@ -12,12 +16,29 @@ public class Ship {
 		origin = new Point(myOrigin.getX(), myOrigin.getY());
 		isVertical = vertical;
 		size = length;
+		
+		if (isVertical)
+		{
+			for (int index = 0; index < size; index++)
+			{
+				ship.add(new Point(origin.getX(), origin.getY() + index));		
+			}
+		}
+		else 
+		{
+			for (int index = 0; index < size; index++)
+			{
+				ship.add(new Point(origin.getX() + index, origin.getY()));		
+			}
+		}
 	}
 
 	//	Returns true if a Ship covers a point on the board, false if it does not.
 	boolean containsPoint(Point p)
 	{
-		return true;	
+//		for (int index = 0; index)
+//		return this.origin.getX() == p.getX() && this.origin.getY() == p.getX();
+		return true;
 	}
 	
 //	Returns true if the receiving ship shares a point with the argument ship. Collides with it, so to speak.
@@ -29,9 +50,22 @@ public class Ship {
 //	This is a verb in the game. When the user enters a coordinate, this method can be called on each ship. 
 //	If the ship contains the point, it should remember that it has been hit at that point. It could 
 //	do this with a second PointCollection, or some other data strategy
-	public void shotFiredAtPoint(Point p)
+	public boolean shotFiredAtPoint(Point p)
 	{
+		boolean wasHit = false;
 		
+		for(int i = 0; i < size; i++)
+		{
+			if (ship.get(i).getX() == p.getX() && ship.get(i).getY() == p.getY())
+			{
+				hits++;
+				wasHit = true;
+			}
+		}
+		if (hits == size)
+			sunk = true;
+		
+		return wasHit;
 	}
 	
 //	Returns true if shotFiredAtPoint has been called for this point in the ship. 
@@ -45,7 +79,6 @@ public class Ship {
 //	When the hitCount is equal to the length of the ship the ship is considered to be sunk.
 	public int hitCount()
 	{
-		int count = 0;
-		return count;
+		return hits;
 	}
 }

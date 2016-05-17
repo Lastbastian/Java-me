@@ -4,8 +4,8 @@ public class Board {
 	static final int ROWS = 10;
 	static final int COLS = 10;
 	private ArrayList<Point> boardSpaces = new ArrayList<Point>();
-	private ArrayList<Point> shipPoints = new ArrayList<Point>();
-	private ArrayList<Integer> hitPoints = new ArrayList<Integer>();
+	ArrayList<Point> shipBoard = new ArrayList<Point>();
+	ArrayList<Point> hitBoard = new ArrayList<Point>();
 	
 	public Board()
 	{
@@ -22,16 +22,16 @@ public class Board {
 	{
 		if (o.isVertical)
 		{
-			for (int index = 0; index < o.size-1; index++)
+			for (int index = 0; index < o.size; index++)
 			{
-				shipPoints.add(new Point(o.origin.getX(), o.origin.getY() + index));		
+				shipBoard.add(new Point(o.origin.getX(), o.origin.getY() + index));		
 			}
 		}
 		else 
 		{
-			for (int index = 0; index < o.size-1; index++)
+			for (int index = 0; index < o.size; index++)
 			{
-				shipPoints.add(new Point(o.origin.getX() + index, o.origin.getY()));		
+				shipBoard.add(new Point(o.origin.getX() + index, o.origin.getY()));		
 			}
 		}
 			
@@ -46,12 +46,9 @@ public class Board {
 			for (int c = 0; c < COLS; c++) {
 				System.out.print(" " + boardSpaces.get(index).displayCharacter() + " ");		
 			}
-			
 			index++;
 			
 			System.out.println();
 		}
 	}
-	
-
 }
