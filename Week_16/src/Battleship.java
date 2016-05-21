@@ -11,7 +11,8 @@ public class Battleship {
 		Ship patrol = new Ship(new Point(2,6),true,2);
 		Ship battleship = new Ship(new Point(3,7),false,4);
 			
-		Board newBoard = new Board();
+		Board newBoard = new Board();		
+		
 		newBoard.display();
 		
 		newBoard.addShip(submarine);
@@ -19,6 +20,7 @@ public class Battleship {
 		newBoard.addShip(carrier);
 		newBoard.addShip(patrol);
 		newBoard.addShip(battleship);
+		
 		while (gameRunning)
 		{
 			Scanner keyboard = new Scanner(System.in);
@@ -36,7 +38,7 @@ public class Battleship {
 				destroyer.shotFiredAtPoint(shot) ||
 				carrier.shotFiredAtPoint(shot) ||
 				patrol.shotFiredAtPoint(shot) ||
-				battleship.shotFiredAtPoint(shot))
+				battleship.shotFiredAtPoint(shot)) // YOU HIT
 			{
 				System.out.println("Hit!");
 				if (submarine.sunk)
@@ -53,17 +55,30 @@ public class Battleship {
 				newBoard.hitBoard.add(shot);
 				newBoard.shipBoard.add(shot);
 				newBoard.display();
+				
+				System.out.print("HITS = ");
+				for (int i = 0; i < newBoard.hitBoard.size(); i++)
+				{
+					System.out.print(" [" + newBoard.hitBoard.get(i).getX() + " " + newBoard.hitBoard.get(i).getY() + "] ");
+				}
 					
 			}
-			else
+			else // YOU MISSED
 			{
 				System.out.println("Miss! Try again...");
+				newBoard.missBoard.add(shot);
+				newBoard.display();
+				System.out.print("MISSES = ");
 				
+				System.out.println(newBoard.boardSpaces.get(0).getX() + " " + newBoard.boardSpaces.get(0).getY());
+
+				for (int i = 0; i < newBoard.missBoard.size(); i++)
+				{
+					System.out.print(" [" + newBoard.missBoard.get(i).getX() + " " + newBoard.missBoard.get(i).getY() + "] ");
+				}
 			}
 		}
 		
-		
-
 		
 //		for (int i = 0; i < newBoard.shipPoints.size(); i++)
 //		{

@@ -15,5 +15,8 @@ public class Point {
 	public void setY(int value) { y = value; }
 	public int getY() { return y; }
 
-	public char displayCharacter() { return '~'; }
+	public boolean equals(Point p)
+	{
+		return x == p.getX() && y == p.getY();
+	}
 }

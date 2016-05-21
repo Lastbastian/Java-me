@@ -1,7 +1,0 @@
-import java.util.ArrayList;
-
-public class Ship {
-	ArrayList<String> shipPoints = new ArrayList<String>();
-	ArrayList<int> hitPoints = new ArrayList<int>;
-
-}

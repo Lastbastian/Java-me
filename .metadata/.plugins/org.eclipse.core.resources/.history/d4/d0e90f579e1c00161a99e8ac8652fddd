@@ -1,0 +1,10 @@
+
+public class CarProgram {
+	public void main(String[] args)
+	{
+		ArrayList<Car> carList = new ArrayList<Car>(); 
+		
+		Car newCar = new Car(2, 4);
+	}
+
+}

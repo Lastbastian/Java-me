@@ -1,0 +1,18 @@
+
+public class Car {
+	int doors;
+	int wheels;
+	ArrayList<Car> carList = 
+	
+	public Car(int myDoors, int myWheels)
+	{
+		doors = myDoors;
+		wheels = myWheels;
+	}
+	
+	public void main(String[] args)
+	{
+		Car newCar = new Car(2, 4);
+	}
+
+}
