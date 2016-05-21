@@ -51,11 +51,11 @@ public class Board {
 				{
 					for (int j = 0; j < hitBoard.size(); j++)
 					{
-						System.out.println(boardSpaces.get(i).getX() + hitBoard.get(i).getY() + " = " + hitBoard.get(i).getX() + hitBoard.get(i).getY());
-						if (boardSpaces.get(i).equals(hitBoard.get(j)))
-							hitMatch = true;
-						else
-							hitMatch = false;
+						System.out.println(boardSpaces.get(i).getX() + boardSpaces.get(i).getY() + " = " + hitBoard.get(i).getX() + hitBoard.get(i).getY());
+//						if (boardSpaces.get(i).equals(hitBoard.get(j)))
+//							hitMatch = true;
+//						else
+//							hitMatch = false;
 					}
 				}
 				
@@ -63,22 +63,22 @@ public class Board {
 				{
 					for (int j = 0; j < missBoard.size(); j++)
 					{
-						if (boardSpaces.get(i).equals(missBoard.get(j)))
-						{
-							missMatch = true;
-						}
-						else
-						{
-							missMatch = false;
-						}
+						
+//						if (boardSpaces.get(i).equals(missBoard.get(j)))
+//						{
+//							missMatch = true;
+//						}
+//						else
+//						{
+//							missMatch = false;
+//						}
 					}
 				}
 				
-				if (hitMatch)
-				System.out.println(boardSpaces.get(i).getX() + hitBoard.get(j).getY() + " = " + hitBoard.get(j).getX() + hitBoard.get(j).getY());
+//				if (hitMatch)
 //					System.out.print(" X ");
 				else if (missMatch)
-				System.out.println(boardSpaces.get(i).getX() + missBoard.get(j).getY() + " = " + hitBoard.get(j).getX() + missBoard.get(j).getY());
+				System.out.println(boardSpaces.get(i).getX() + missBoard.get(i).getY() + " = " + hitBoard.get(i).getX() + missBoard.get(i).getY());
 //					System.out.print(" . ");
 //				else
 //					System.out.print(" ~ ");

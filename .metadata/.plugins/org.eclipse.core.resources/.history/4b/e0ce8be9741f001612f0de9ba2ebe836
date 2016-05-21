@@ -74,11 +74,10 @@ public class Board {
 					}
 				}
 				
-				if (hitMatch)
-				System.out.println(boardSpaces.get(i).getX() + hitBoard.get(j).getY() + " = " + hitBoard.get(j).getX() + hitBoard.get(j).getY());
+//				if (hitMatch)
 //					System.out.print(" X ");
 				else if (missMatch)
-				System.out.println(boardSpaces.get(i).getX() + missBoard.get(j).getY() + " = " + hitBoard.get(j).getX() + missBoard.get(j).getY());
+				System.out.println(boardSpaces.get(i).getX() + missBoard.get(i).getY() + " = " + hitBoard.get(i).getX() + missBoard.get(i).getY());
 //					System.out.print(" . ");
 //				else
 //					System.out.print(" ~ ");
