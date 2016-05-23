@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+
+public class StringList {
+	ArrayList<String> stringList = new ArrayList<String>();
+	
+	public static void main(String[] args)
+	{
+		
+	}
+
+	public void add(String s)
+	{
+		stringList.add(s);
+	}
+	
+	public String get(int i)
+	{
+		return 
+	}
+	
+	public int size()
+	{
+		return stringList.size();
+	}
+	
+	public totalCharCount()
+	{
+		
+	}
+	
+
+}
