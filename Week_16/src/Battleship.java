@@ -69,8 +69,6 @@ public class Battleship {
 				newBoard.missBoard.add(shot);
 				newBoard.display();
 				System.out.print("MISSES = ");
-				
-				System.out.println(newBoard.boardSpaces.get(0).getX() + " " + newBoard.boardSpaces.get(0).getY());
 
 				for (int i = 0; i < newBoard.missBoard.size(); i++)
 				{
@@ -78,25 +76,6 @@ public class Battleship {
 				}
 			}
 		}
-		
-		
-//		for (int i = 0; i < newBoard.shipPoints.size(); i++)
-//		{
-//			System.out.println(newBoard.shipPoints.get(i).getX() + " " + newBoard.shipPoints.get(i).getY());
-//			if (newBoard.shipPoints.get(i).getX() == shot.getX() && newBoard.shipPoints.get(i).getY() == shot.getY())
-//				System.out.println("hit");
-//		}
-		
-		
-		
-//		if (submarine.shotFiredAtPoint(shot) || 
-//			destroyer.shotFiredAtPoint(shot) ||
-//			carrier.shotFiredAtPoint(shot) ||
-//			patrol.shotFiredAtPoint(shot) ||
-//			battleship.shotFiredAtPoint(shot))
-//			System.out.println("Hit!");
-//		else
-//			System.out.println("Miss.");
 	}
 
 }

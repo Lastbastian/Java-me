@@ -56,7 +56,7 @@ public class Ship {
 		
 		for(int i = 0; i < size; i++)
 		{
-			if (ship.get(i).getX() == p.getX() && ship.get(i).getY() == p.getY())
+			if (ship.get(i).equals(p))
 			{
 				hits++;
 				wasHit = true;
@@ -72,7 +72,7 @@ public class Ship {
 //	False if it has not, or if the point is not in the ship.
 	public boolean isHitAtPoint(Point p)
 	{
-		return true;
+		return false;
 	}
 	
 //	Returns the number of points in the ship that have been hit. 
