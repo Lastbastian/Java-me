@@ -1,0 +1,19 @@
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
+public class ButtonCount {
+	private JButton button1;
+	private JPanel panel;
+	
+	private final int WINDOW_WIDTH = 300;
+	private final int WINDOW_HEIGHT = 70;
+	
+	 
+	
+	
+	
+	
+	
+	
+
+}

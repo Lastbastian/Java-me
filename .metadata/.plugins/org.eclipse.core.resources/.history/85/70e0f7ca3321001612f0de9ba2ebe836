@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class StringList {
-	private ArrayList<String> stringList = new ArrayList<String>();
+	ArrayList<String> stringList = new ArrayList<String>();
 	
 	public static void main(String[] args)
 	{
