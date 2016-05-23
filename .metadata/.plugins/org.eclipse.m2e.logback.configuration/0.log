@@ -210,3 +210,5 @@ Caused by: java.io.IOException: Connection reset by peer
 	at org.jboss.netty.channel.socket.nio.NioWorker.processSelectedKeys(NioWorker.java:280) ~[na:na]
 	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:200) ~[na:na]
 	... 3 common frames omitted
+2016-05-23 15:21:57,012 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2016-05-23 15:21:57,549 [pool-6-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16

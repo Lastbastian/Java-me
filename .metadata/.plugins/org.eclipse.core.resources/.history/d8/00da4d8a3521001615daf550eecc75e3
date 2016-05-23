@@ -57,7 +57,7 @@ public class ButtonCount extends JFrame
 				 superCount++;
 				 JOptionPane.showMessageDialog(null, "You clicked the Super Button " + superCount + " time(s)!");
 			 }
-			 if (actionCommand.equals("Wacky Button"))
+			 if (actionCommand.equals("Magic Button"))
 			 {
 				 wackyCount++;
 				 JOptionPane.showMessageDialog(null, "You clicked the Wacky Button " + wackyCount + " time(s)!");

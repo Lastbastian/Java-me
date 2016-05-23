@@ -9,10 +9,6 @@ public class ButtonCount extends JFrame
 	private JButton button3;
 	private JPanel panel;
 	
-	private int magicCount = 0;
-	private int superCount = 0;
-	private int wackyCount = 0;
-	
 	private final int WINDOW_WIDTH = 500;
 	private final int WINDOW_HEIGHT = 70;
 	
@@ -46,7 +42,10 @@ public class ButtonCount extends JFrame
 		 public void actionPerformed(ActionEvent e)
 		 {
 			 String actionCommand = e.getActionCommand();
-	 
+			 int magicCount = 0;
+			 int superCount = 0;
+			 int wackyCount = 0;
+			 
 			 if (actionCommand.equals("Magic Button"))
 			 {
 				 magicCount++;
@@ -57,7 +56,7 @@ public class ButtonCount extends JFrame
 				 superCount++;
 				 JOptionPane.showMessageDialog(null, "You clicked the Super Button " + superCount + " time(s)!");
 			 }
-			 if (actionCommand.equals("Wacky Button"))
+			 if (actionCommand.equals("Magic Button"))
 			 {
 				 wackyCount++;
 				 JOptionPane.showMessageDialog(null, "You clicked the Wacky Button " + wackyCount + " time(s)!");
