@@ -3432,3 +3432,136 @@ org.eclipse.team.core.TeamException: Could not instantiate provider org.eclipse.
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
 !SUBENTRY 1 org.eclipse.team.core 4 0 2016-05-23 15:19:00.912
 !MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project Week_4.
+!SESSION 2016-05-27 19:58:35.828 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/chrisbastian/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/chrisbastian/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-27 19:58:39.688
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.team.core 4 0 2016-05-27 19:58:46.077
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project Week_2.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not instantiate provider org.eclipse.egit.core.GitProvider for project Week_2.
+	at org.eclipse.team.core.RepositoryProvider.mapNewProvider(RepositoryProvider.java:165)
+	at org.eclipse.team.core.RepositoryProvider.mapExistingProvider(RepositoryProvider.java:235)
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:507)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.isMappedToCVS(CVSLightweightDecorator.java:192)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.decorate(CVSLightweightDecorator.java:147)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2016-05-27 19:58:46.078
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project Week_2.
+
+!ENTRY org.eclipse.team.core 4 0 2016-05-27 19:58:46.079
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project Week_3.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not instantiate provider org.eclipse.egit.core.GitProvider for project Week_3.
+	at org.eclipse.team.core.RepositoryProvider.mapNewProvider(RepositoryProvider.java:165)
+	at org.eclipse.team.core.RepositoryProvider.mapExistingProvider(RepositoryProvider.java:235)
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:507)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.isMappedToCVS(CVSLightweightDecorator.java:192)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.decorate(CVSLightweightDecorator.java:147)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2016-05-27 19:58:46.080
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project Week_3.
+
+!ENTRY org.eclipse.team.core 4 0 2016-05-27 19:58:46.081
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project Week_4.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not instantiate provider org.eclipse.egit.core.GitProvider for project Week_4.
+	at org.eclipse.team.core.RepositoryProvider.mapNewProvider(RepositoryProvider.java:165)
+	at org.eclipse.team.core.RepositoryProvider.mapExistingProvider(RepositoryProvider.java:235)
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:507)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.isMappedToCVS(CVSLightweightDecorator.java:192)
+	at org.eclipse.team.internal.ccvs.ui.CVSLightweightDecorator.decorate(CVSLightweightDecorator.java:147)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2016-05-27 19:58:46.081
+!MESSAGE Could not instantiate provider org.eclipse.egit.core.GitProvider for project Week_4.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-05-27 19:59:13.715
+!MESSAGE No remedy found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-05-27 19:59:13.863
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-05-27 19:59:13.863
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:13.863
+!MESSAGE Software being installed: Command Line Interface for Java implementation of Git 4.3.1.201605051710-r (org.eclipse.jgit.pgm.feature.group 4.3.1.201605051710-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:13.863
+!MESSAGE Missing requirement: JGit Command Line Interface 4.3.1.201605051710-r (org.eclipse.jgit.pgm 4.3.1.201605051710-r) requires 'package javax.servlet [3.1.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-27 19:59:13.863
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:13.863
+!MESSAGE From: Command Line Interface for Java implementation of Git 4.3.1.201605051710-r (org.eclipse.jgit.pgm.feature.group 4.3.1.201605051710-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:13.863
+!MESSAGE To: org.eclipse.jgit.pgm [4.3.1.201605051710-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-05-27 19:59:13.919
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-05-27 19:59:13.919
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:13.919
+!MESSAGE Software being installed: Command Line Interface for Java implementation of Git 4.3.1.201605051710-r (org.eclipse.jgit.pgm.feature.group 4.3.1.201605051710-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:13.919
+!MESSAGE Missing requirement: JGit Command Line Interface 4.3.1.201605051710-r (org.eclipse.jgit.pgm 4.3.1.201605051710-r) requires 'package javax.servlet [3.1.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-27 19:59:13.919
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:13.919
+!MESSAGE From: Command Line Interface for Java implementation of Git 4.3.1.201605051710-r (org.eclipse.jgit.pgm.feature.group 4.3.1.201605051710-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:13.919
+!MESSAGE To: org.eclipse.jgit.pgm [4.3.1.201605051710-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-05-27 19:59:14.625
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-05-27 19:59:14.625
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:14.625
+!MESSAGE Software being installed: Command Line Interface for Java implementation of Git 4.3.1.201605051710-r (org.eclipse.jgit.pgm.feature.group 4.3.1.201605051710-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:14.625
+!MESSAGE Missing requirement: JGit Command Line Interface 4.3.1.201605051710-r (org.eclipse.jgit.pgm 4.3.1.201605051710-r) requires 'package javax.servlet [3.1.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-27 19:59:14.625
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:14.625
+!MESSAGE From: Command Line Interface for Java implementation of Git 4.3.1.201605051710-r (org.eclipse.jgit.pgm.feature.group 4.3.1.201605051710-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:14.626
+!MESSAGE To: org.eclipse.jgit.pgm [4.3.1.201605051710-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-05-27 19:59:14.626
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-05-27 19:59:14.626
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:14.626
+!MESSAGE Software being installed: Command Line Interface for Java implementation of Git 4.3.1.201605051710-r (org.eclipse.jgit.pgm.feature.group 4.3.1.201605051710-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:14.626
+!MESSAGE Missing requirement: JGit Command Line Interface 4.3.1.201605051710-r (org.eclipse.jgit.pgm 4.3.1.201605051710-r) requires 'package javax.servlet [3.1.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-27 19:59:14.626
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:14.626
+!MESSAGE From: Command Line Interface for Java implementation of Git 4.3.1.201605051710-r (org.eclipse.jgit.pgm.feature.group 4.3.1.201605051710-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-27 19:59:14.626
+!MESSAGE To: org.eclipse.jgit.pgm [4.3.1.201605051710-r]
